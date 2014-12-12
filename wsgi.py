@@ -53,7 +53,7 @@ class Hello(object):
     def index(self, toprint="Hello World!"):
         return toprint
     @cherrypy.expose
-    def hello((self, toprint="Hello World!"):
+    def hello(self, toprint="Hello World!"):
         return toprint
 
 ################# (4) 程式啟動區
