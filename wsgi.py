@@ -1,8 +1,17 @@
+#@+leo-ver=5-thin
+#@+node:2014fall.20141212095015.1775: * @file wsgi.py
 # coding=utf-8
 # 上面的程式內容編碼必須在程式的第一或者第二行才會有作用
 
 ################# (1) 模組導入區
 # 導入 cherrypy 模組, 為了在 OpenShift 平台上使用 cherrypy 模組, 必須透過 setup.py 安裝
+
+
+#@@language python
+#@@tabwidth -4
+
+#@+<<declarations>>
+#@+node:2014fall.20141212095015.1776: ** <<declarations>> (wsgi)
 import cherrypy
 # 導入 Python 內建的 os 模組, 因為 os 模組為 Python 內建, 所以無需透過 setup.py 安裝
 import os
@@ -28,7 +37,9 @@ repeat_no = int(input("重複列印幾次?"))
 for i in range(repeat_no):
     print(toprint)
 '''
-
+#@-<<declarations>>
+#@+others
+#@+node:2014fall.20141212095015.1777: ** class Hello
 ################# (3) 程式類別定義區
 # 以下改用 CherryPy 網際框架程式架構
 # 以下為 Hello 類別的設計內容, 其中的 object 使用, 表示 Hello 類別繼承 object 的所有特性, 包括方法與屬性設計
@@ -48,14 +59,18 @@ class Hello(object):
 
     # 以 @ 開頭的 cherrypy.expose 為 decorator, 用來表示隨後的成員方法, 可以直接讓使用者以 URL 連結執行
     @cherrypy.expose
+    #@+others
+    #@+node:2014fall.20141212095015.1778: *3* index
     # index 方法為 CherryPy 各類別成員方法中的內建(default)方法, 當使用者執行時未指定方法, 系統將會優先執行 index 方法
     # 有 self 的方法為類別中的成員方法, Python 程式透過此一 self 在各成員方法間傳遞物件內容
     def index(self, toprint="Hello World!"):
         return toprint
+    #@+node:2014fall.20141212095015.1779: *3* hello
     @cherrypy.expose
     def hello(self, toprint="Hello World!"):
         return toprint
-
+    #@-others
+#@-others
 ################# (4) 程式啟動區
 # 配合程式檔案所在目錄設定靜態目錄或靜態檔案
 application_conf = {'/static':{
@@ -76,4 +91,4 @@ if 'OPENSHIFT_REPO_DIR' in os.environ.keys():
 else:
     # 表示在近端執行
     cherrypy.quickstart(Hello(), config=application_conf)
-
+#@-leo
