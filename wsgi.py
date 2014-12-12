@@ -52,6 +52,9 @@ class Hello(object):
     # 有 self 的方法為類別中的成員方法, Python 程式透過此一 self 在各成員方法間傳遞物件內容
     def index(self, toprint="Hello World!"):
         return toprint
+    @cherrypy.expose
+    def hello((self, toprint="Hello World!"):
+        return toprint
 
 ################# (4) 程式啟動區
 # 配合程式檔案所在目錄設定靜態目錄或靜態檔案
