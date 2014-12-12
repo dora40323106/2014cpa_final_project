@@ -57,10 +57,19 @@ class Hello(object):
     'tools.sessions.timeout' : 60
     }
 
+    #@+others
+    #@+node:2014fall.20141212095015.2004: *3* __init__
+    def __init__(self):
+        # 配合透過案例啟始建立所需的目錄
+        if not os.path.isdir(data_dir+'/tmp'):
+            os.mkdir(data_dir+'/tmp')
+        if not os.path.isdir(data_dir+"/downloads"):
+            os.mkdir(data_dir+"/downloads")
+        if not os.path.isdir(data_dir+"/images"):
+            os.mkdir(data_dir+"/images")
+    #@+node:2014fall.20141212095015.1778: *3* index
     # 以 @ 開頭的 cherrypy.expose 為 decorator, 用來表示隨後的成員方法, 可以直接讓使用者以 URL 連結執行
     @cherrypy.expose
-    #@+others
-    #@+node:2014fall.20141212095015.1778: *3* index
     # index 方法為 CherryPy 各類別成員方法中的內建(default)方法, 當使用者執行時未指定方法, 系統將會優先執行 index 方法
     # 有 self 的方法為類別中的成員方法, Python 程式透過此一 self 在各成員方法間傳遞物件內容
     def index(self, toprint="Hello World!"):
