@@ -15,6 +15,8 @@
 import cherrypy
 # 導入 Python 內建的 os 模組, 因為 os 模組為 Python 內建, 所以無需透過 setup.py 安裝
 import os
+# 導入 random 模組
+import random
 
 ################# (2) 廣域變數設定區
 # 確定程式檔案所在目錄, 在 Windows 下有最後的反斜線
@@ -50,7 +52,7 @@ class Hello(object):
     'tools.encode.encoding': 'utf-8',
     'tools.sessions.on' : True,
     'tools.sessions.storage_type' : 'file',
-    'tools.sessions.locking' : 'explicit',
+    #'tools.sessions.locking' : 'explicit',
     # session 以檔案儲存, 而且位於 data_dir 下的 tmp 目錄
     'tools.sessions.storage_path' : data_dir+'/tmp',
     # session 有效時間設為 60 分鐘
@@ -67,17 +69,67 @@ class Hello(object):
             os.mkdir(data_dir+"/downloads")
         if not os.path.isdir(data_dir+"/images"):
             os.mkdir(data_dir+"/images")
-    #@+node:2014fall.20141212095015.1778: *3* index
+    #@+node:2014fall.20141212095015.1778: *3* index_orig
     # 以 @ 開頭的 cherrypy.expose 為 decorator, 用來表示隨後的成員方法, 可以直接讓使用者以 URL 連結執行
     @cherrypy.expose
     # index 方法為 CherryPy 各類別成員方法中的內建(default)方法, 當使用者執行時未指定方法, 系統將會優先執行 index 方法
     # 有 self 的方法為類別中的成員方法, Python 程式透過此一 self 在各成員方法間傳遞物件內容
-    def index(self, toprint="Hello World!"):
+    def index_orig(self, toprint="Hello World!"):
         return toprint
     #@+node:2014fall.20141212095015.1779: *3* hello
     @cherrypy.expose
     def hello(self, toprint="Hello World!"):
         return toprint
+    #@+node:2014fall.20141215194146.1791: *3* index
+    @cherrypy.expose
+    def index(self, guess=None):
+        # 將標準答案存入 answer session 對應區
+        theanswer = random.randint(1, 100)
+        thecount = 0
+        # 將答案與計算次數變數存進 session 對應變數
+        cherrypy.session['answer'] = theanswer
+        cherrypy.session['count'] = thecount
+        # 印出讓使用者輸入的超文件表單
+        outstring = '''<form method=POST action=doCheck>
+    請輸入您所猜的整數:<input type=text name=guess><br />
+    <input type=submit value=send>
+    </form>'''
+        return outstring
+    #@+node:2014fall.20141215194146.1793: *3* doCheck
+    @cherrypy.expose
+    def doCheck(self, guess=None):
+        # 假如使用者直接執行 doCheck, 則設法轉回根方法
+        if guess is None:
+            raise cherrypy.HTTPRedirect("/")
+        # 從 session 取出 answer 對應資料, 且處理直接執行 doCheck 時無法取 session 值情況
+        try:
+            theanswer = int(cherrypy.session.get('answer'))
+        except:
+            raise cherrypy.HTTPRedirect("/")
+        # 經由表單所取得的 guess 資料型別為 string
+        try:
+            theguess = int(guess)
+        except:
+            return "error " + self.guessform()
+        # 每執行 doCheck 一次,次數增量一次
+        cherrypy.session['count']  += 1
+        # 答案與所猜數字進行比對
+        if theanswer < theguess:
+            return "big " + self.guessform()
+        elif theanswer > theguess:
+            return "small " + self.guessform()
+        else:
+            # 已經猜對, 從 session 取出累計猜測次數
+            thecount = cherrypy.session.get('count')
+            return "exact: <a href=''>再猜</a>"
+    #@+node:2014fall.20141215194146.1789: *3* guessform
+    def guessform(self):
+        # 印出讓使用者輸入的超文件表單
+        outstring = str(cherrypy.session.get('answer')) + "/" + str(cherrypy.session.get('count')) + '''<form method=POST action=doCheck>
+    請輸入您所猜的整數:<input type=text name=guess><br />
+    <input type=submit value=send>
+    </form>'''
+        return outstring
     #@-others
 #@-others
 ################# (4) 程式啟動區
