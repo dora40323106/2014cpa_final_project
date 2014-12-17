@@ -130,6 +130,7 @@ class Hello(object):
     <input type=submit value=send>
     </form>'''
         return outstring
+    #@+node:2015.20141217091739.1861: *3* 40323133
     #@-others
 #@-others
 ################# (4) 程式啟動區
