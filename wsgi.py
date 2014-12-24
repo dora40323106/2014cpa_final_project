@@ -80,21 +80,6 @@ class Hello(object):
     @cherrypy.expose
     def hello(self, toprint="Hello World!"):
         return toprint
-    #@+node:2014fall.20141215194146.1791: *3* index
-    @cherrypy.expose
-    def index(self, guess=None):
-        # 將標準答案存入 answer session 對應區
-        theanswer = random.randint(1, 100)
-        thecount = 0
-        # 將答案與計算次數變數存進 session 對應變數
-        cherrypy.session['answer'] = theanswer
-        cherrypy.session['count'] = thecount
-        # 印出讓使用者輸入的超文件表單
-        outstring = '''<form method=POST action=doCheck>
-    請輸入您所猜的整數:<input type=text name=guess><br />
-    <input type=submit value=send>
-    </form>'''
-        return outstring
     #@+node:2014fall.20141215194146.1793: *3* doCheck
     @cherrypy.expose
     def doCheck(self, guess=None):
@@ -122,6 +107,21 @@ class Hello(object):
             # 已經猜對, 從 session 取出累計猜測次數
             thecount = cherrypy.session.get('count')
             return "exact: <a href=''>再猜</a>"
+    #@+node:2014fall.20141215194146.1791: *3* index
+    @cherrypy.expose
+    def index(self, guess=None):
+        # 將標準答案存入 answer session 對應區
+        theanswer = random.randint(1, 100)
+        thecount = 0
+        # 將答案與計算次數變數存進 session 對應變數
+        cherrypy.session['answer'] = theanswer
+        cherrypy.session['count'] = thecount
+        # 印出讓使用者輸入的超文件表單
+        outstring = '''<form method=POST action=doCheck>
+    請輸入您所猜的整數:<input type=text name=guess><br />
+    <input type=submit value=send>
+    </form>'''
+        return outstring
     #@+node:2014fall.20141215194146.1789: *3* guessform
     def guessform(self):
         # 印出讓使用者輸入的超文件表單
@@ -133,6 +133,13 @@ class Hello(object):
     #@+node:2015.20141224102255.1789: *3* a123
     @cherrypy.expose
     def a123(self, var1="hello",var2=2):
+        outstring = ""
+        for i in range(int(var2)):
+            outstring += var1 + "<br />"
+        return outstring
+    #@+node:2015.20141224212857.1714: *3* a40323133
+    @cherrypy.expose
+    def a40323133(self, var1="hello",var2=2):
         outstring = ""
         for i in range(int(var2)):
             outstring += var1 + "<br />"
