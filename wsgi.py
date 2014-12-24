@@ -130,6 +130,13 @@ class Hello(object):
     <input type=submit value=send>
     </form>'''
         return outstring
+    #@+node:2015.20141224102255.1789: *3* a123
+    @cherrypy.expose
+    def a123(self, var1="hello",var2=2):
+        outstring = ""
+        for i in range(int(var2)):
+            outstring += var1 + "<br />"
+        return outstring
     #@-others
 #@-others
 ################# (4) 程式啟動區
