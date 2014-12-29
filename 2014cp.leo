@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Created by Leo (http://leoeditor.com/leo_toc.html) -->
+<!-- Created by Leo: http://leoeditor.com/leo_toc.html -->
 <?xml-stylesheet ekr_test?>
-<leo_file xmlns:leo="http://www.leo-editor.org/2011/leo" >
+<leo_file xmlns:leo="http://leoeditor.com/namespaces/leo-python-editor/1.1" >
 <leo_header file_format="2" tnodes="0" max_tnode_index="0" clone_windows="0"/>
 <globals body_outline_ratio="0.5" body_secondary_ratio="0.5">
 	<global_window_position top="50" left="50" height="500" width="700"/>
@@ -23,16 +23,15 @@
 <v t="lee.20141227235536.52" a="E"><vh>Buttons</vh>
 <v t="lee.20141227235536.53"><vh>@button run env</vh></v>
 </v>
-<v t="lee.20141224110313.41" a="E"><vh>@path ./</vh>
+<v t="lee.20141224110313.41"><vh>@path ./</vh>
 <v t="lee.20141224110313.42"><vh>@edit requirements.txt</vh></v>
 <v t="lee.20141224110313.43"><vh>@edit __init__.py</vh></v>
 <v t="lee.20141224110313.44"><vh>@edit .gitignore</vh></v>
 <v t="lee.20141224110313.45"><vh>@edit setup.py</vh></v>
-<v t="lee.20141224110313.46" a="E"
-expanded="lee.20141215164031.50,"><vh>@file wsgi.py</vh></v>
+<v t="lee.20141224110313.46" a="E"><vh>@file wsgi.py</vh></v>
 <v t="lee.20141224110313.47"><vh>@edit readme.md</vh></v>
 </v>
-<v t="lee.20141224110313.55" a="E"><vh>@path std</vh>
+<v t="lee.20141224110313.55"><vh>@path std</vh>
 <v t="lee.20141224110313.58"><vh>@file asciisymbol.py</vh></v>
 <v t="lee.20141224110313.59"
 expanded="lee.20141221203113.47,"><vh>@file example1.py</vh></v>
@@ -41,7 +40,7 @@ expanded="lee.20141215164031.96,"><vh>@file example.py</vh></v>
 <v t="lee.20141224110313.61"
 expanded="lee.20141223114246.41,"><vh>@file example2.py</vh></v>
 </v>
-<v t="lee.20141224110313.56" a="E"><vh>@path templates</vh>
+<v t="lee.20141224110313.56"><vh>@path templates</vh>
 <v t="lee.20141224110313.131"><vh>@edit 404.html</vh></v>
 <v t="lee.20141224110313.132"><vh>@edit index.html</vh></v>
 <v t="lee.20141224110313.133"><vh>@edit base.html</vh></v>
