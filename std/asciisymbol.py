@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #@+leo-ver=5-thin
 #@+node:lee.20141224110313.58: * @file asciisymbol.py
 #@@language python
@@ -7,6 +8,8 @@
 
 #@+others
 #@+node:lee.20141227235536.6: ** symbolSpace
+=======
+>>>>>>> 371e1e3daebd7e80edd924d580544ab7a3ba13bb
 def symbolSpace(row):
     s = [
         '■■■■■■■',
@@ -21,7 +24,10 @@ def symbolSpace(row):
     ]
     return s[row]
 
+<<<<<<< HEAD
 #@+node:lee.20141227235536.7: ** symbol1
+=======
+>>>>>>> 371e1e3daebd7e80edd924d580544ab7a3ba13bb
 def symbol1 (row):
     s=[
         '■■■□■■■',
@@ -36,7 +42,10 @@ def symbol1 (row):
     ]
     return s[row]
 
+<<<<<<< HEAD
 #@+node:lee.20141227235536.8: ** symbol2
+=======
+>>>>>>> 371e1e3daebd7e80edd924d580544ab7a3ba13bb
 def symbol2 (row):
     s=[
         '■□□□□□■',
@@ -51,7 +60,10 @@ def symbol2 (row):
     ]
     return s[row]
 
+<<<<<<< HEAD
 #@+node:lee.20141227235536.9: ** symbol3
+=======
+>>>>>>> 371e1e3daebd7e80edd924d580544ab7a3ba13bb
 def symbol3 (row):
     s=[
         '■□□□□□■',
@@ -66,7 +78,10 @@ def symbol3 (row):
     ]
     return s[row]
 
+<<<<<<< HEAD
 #@+node:lee.20141227235536.10: ** symbol4
+=======
+>>>>>>> 371e1e3daebd7e80edd924d580544ab7a3ba13bb
 def symbol4 (row):
     s=[
         '■■■■■□■',
@@ -81,7 +96,10 @@ def symbol4 (row):
     ]
     return s[row]
 
+<<<<<<< HEAD
 #@+node:lee.20141227235536.11: ** symbol5
+=======
+>>>>>>> 371e1e3daebd7e80edd924d580544ab7a3ba13bb
 def symbol5 (row):
     s=[
         '■□□□□□□',
@@ -96,7 +114,10 @@ def symbol5 (row):
     ]
     return s[row]
 
+<<<<<<< HEAD
 #@+node:lee.20141227235536.12: ** symbol6
+=======
+>>>>>>> 371e1e3daebd7e80edd924d580544ab7a3ba13bb
 def symbol6 (row):
     s=[
         '■■□□□□■',
@@ -111,7 +132,10 @@ def symbol6 (row):
     ]
     return s[row]
 
+<<<<<<< HEAD
 #@+node:lee.20141227235536.13: ** symbol7
+=======
+>>>>>>> 371e1e3daebd7e80edd924d580544ab7a3ba13bb
 def symbol7 (row):
     s=[
         '■□□□□□□',
@@ -126,7 +150,10 @@ def symbol7 (row):
     ]
     return s[row]
 
+<<<<<<< HEAD
 #@+node:lee.20141227235536.14: ** symbol8
+=======
+>>>>>>> 371e1e3daebd7e80edd924d580544ab7a3ba13bb
 def symbol8 (row):
     s=[
         '■■□□□□■',
@@ -141,7 +168,10 @@ def symbol8 (row):
     ]
     return s[row]
 
+<<<<<<< HEAD
 #@+node:lee.20141227235536.15: ** symbol9
+=======
+>>>>>>> 371e1e3daebd7e80edd924d580544ab7a3ba13bb
 def symbol9 (row):
     s=[
         '■■□□□□■',
@@ -156,7 +186,10 @@ def symbol9 (row):
     ]
     return s[row]
 
+<<<<<<< HEAD
 #@+node:lee.20141227235536.16: ** symbol10
+=======
+>>>>>>> 371e1e3daebd7e80edd924d580544ab7a3ba13bb
 def symbol10 (row):
     s=[
         '■■□□□□■',
@@ -171,7 +204,10 @@ def symbol10 (row):
     ]
     return s[row]
 
+<<<<<<< HEAD
 #@+node:lee.20141227235536.17: ** symbol11
+=======
+>>>>>>> 371e1e3daebd7e80edd924d580544ab7a3ba13bb
 def symbol11 (row):
     s=[
         '■■□□□□■',
@@ -186,7 +222,10 @@ def symbol11 (row):
     ]
     return s[row]
 
+<<<<<<< HEAD
 #@+node:lee.20141227235536.18: ** symbol12
+=======
+>>>>>>> 371e1e3daebd7e80edd924d580544ab7a3ba13bb
 def symbol12 (row):
     s=[
         '■□□□□□■',
@@ -201,7 +240,10 @@ def symbol12 (row):
     ]
     return s[row]
 
+<<<<<<< HEAD
 #@+node:lee.20141227235536.19: ** symbol13
+=======
+>>>>>>> 371e1e3daebd7e80edd924d580544ab7a3ba13bb
 def symbol13 (row):
     s=[
         '■■□□□□■',
@@ -216,7 +258,10 @@ def symbol13 (row):
     ]
     return s[row]
 
+<<<<<<< HEAD
 #@+node:lee.20141227235536.20: ** symbol14
+=======
+>>>>>>> 371e1e3daebd7e80edd924d580544ab7a3ba13bb
 def symbol14 (row):
     s=[
         '■□□□□■■',
@@ -231,7 +276,10 @@ def symbol14 (row):
     ]
     return s[row]
 
+<<<<<<< HEAD
 #@+node:lee.20141227235536.21: ** symbol15
+=======
+>>>>>>> 371e1e3daebd7e80edd924d580544ab7a3ba13bb
 def symbol15 (row):
     s=[
         '■□□□□□□',
@@ -246,7 +294,10 @@ def symbol15 (row):
     ]
     return s[row]
 
+<<<<<<< HEAD
 #@+node:lee.20141227235536.22: ** symbol16
+=======
+>>>>>>> 371e1e3daebd7e80edd924d580544ab7a3ba13bb
 def symbol16 (row):
     s=[
         '■□□□□□□',
@@ -261,7 +312,10 @@ def symbol16 (row):
     ]
     return s[row]
 
+<<<<<<< HEAD
 #@+node:lee.20141227235536.23: ** symbol17
+=======
+>>>>>>> 371e1e3daebd7e80edd924d580544ab7a3ba13bb
 def symbol17 (row):
     s=[
         '■■□□□□■',
@@ -276,7 +330,10 @@ def symbol17 (row):
     ]
     return s[row]
 
+<<<<<<< HEAD
 #@+node:lee.20141227235536.24: ** symbol18
+=======
+>>>>>>> 371e1e3daebd7e80edd924d580544ab7a3ba13bb
 def symbol18 (row):
     s=[
         '■□■■■■□',
@@ -291,7 +348,10 @@ def symbol18 (row):
     ]
     return s[row]
 
+<<<<<<< HEAD
 #@+node:lee.20141227235536.25: ** symbol19
+=======
+>>>>>>> 371e1e3daebd7e80edd924d580544ab7a3ba13bb
 def symbol19 (row):
     s=[
         '■□□□□□□',
@@ -306,7 +366,10 @@ def symbol19 (row):
     ]
     return s[row]
 
+<<<<<<< HEAD
 #@+node:lee.20141227235536.26: ** symbol20
+=======
+>>>>>>> 371e1e3daebd7e80edd924d580544ab7a3ba13bb
 def symbol20 (row):
     s=[
         '■■■■■■□',
@@ -321,7 +384,10 @@ def symbol20 (row):
     ]
     return s[row]
 
+<<<<<<< HEAD
 #@+node:lee.20141227235536.27: ** symbol21
+=======
+>>>>>>> 371e1e3daebd7e80edd924d580544ab7a3ba13bb
 def symbol21 (row):
     s=[
         '■□■■■■□',
@@ -336,7 +402,10 @@ def symbol21 (row):
     ]
     return s[row]
 
+<<<<<<< HEAD
 #@+node:lee.20141227235536.28: ** symbol22
+=======
+>>>>>>> 371e1e3daebd7e80edd924d580544ab7a3ba13bb
 def symbol22 (row):
     s=[
         '■□■■■■■',
@@ -351,7 +420,10 @@ def symbol22 (row):
     ]
     return s[row]
 
+<<<<<<< HEAD
 #@+node:lee.20141227235536.29: ** symbol23
+=======
+>>>>>>> 371e1e3daebd7e80edd924d580544ab7a3ba13bb
 def symbol23 (row):
     s=[
         '■□■■■■□',
@@ -366,7 +438,10 @@ def symbol23 (row):
     ]
     return s[row]
 
+<<<<<<< HEAD
 #@+node:lee.20141227235536.30: ** symbol24
+=======
+>>>>>>> 371e1e3daebd7e80edd924d580544ab7a3ba13bb
 def symbol24 (row):
     s=[
         '■□■■■■□',
@@ -381,7 +456,10 @@ def symbol24 (row):
     ]
     return s[row]
 
+<<<<<<< HEAD
 #@+node:lee.20141227235536.31: ** symbol25
+=======
+>>>>>>> 371e1e3daebd7e80edd924d580544ab7a3ba13bb
 def symbol25 (row):
     s=[
         '■■□□□□■',
@@ -396,7 +474,10 @@ def symbol25 (row):
     ]
     return s[row]
 
+<<<<<<< HEAD
 #@+node:lee.20141227235536.32: ** symbol26
+=======
+>>>>>>> 371e1e3daebd7e80edd924d580544ab7a3ba13bb
 def symbol26 (row):
     s=[
         '■□□□□□■',
@@ -411,7 +492,10 @@ def symbol26 (row):
     ]
     return s[row]
 
+<<<<<<< HEAD
 #@+node:lee.20141227235536.33: ** symbol27
+=======
+>>>>>>> 371e1e3daebd7e80edd924d580544ab7a3ba13bb
 def symbol27 (row):
     s=[
         '■■□□□□■',
@@ -426,7 +510,10 @@ def symbol27 (row):
     ]
     return s[row]
 
+<<<<<<< HEAD
 #@+node:lee.20141227235536.34: ** symbol28
+=======
+>>>>>>> 371e1e3daebd7e80edd924d580544ab7a3ba13bb
 def symbol28 (row):
     s=[
         '■□□□□□■',
@@ -441,7 +528,10 @@ def symbol28 (row):
     ]
     return s[row]
 
+<<<<<<< HEAD
 #@+node:lee.20141227235536.35: ** symbol29
+=======
+>>>>>>> 371e1e3daebd7e80edd924d580544ab7a3ba13bb
 def symbol29 (row):
     s=[
         '■■□□□□■',
@@ -456,7 +546,10 @@ def symbol29 (row):
     ]
     return s[row]
 
+<<<<<<< HEAD
 #@+node:lee.20141227235536.36: ** symbol30
+=======
+>>>>>>> 371e1e3daebd7e80edd924d580544ab7a3ba13bb
 def symbol30 (row):
     s=[
         '■□□□□□□',
@@ -471,7 +564,10 @@ def symbol30 (row):
     ]
     return s[row]
 
+<<<<<<< HEAD
 #@+node:lee.20141227235536.37: ** symbol31
+=======
+>>>>>>> 371e1e3daebd7e80edd924d580544ab7a3ba13bb
 def symbol31 (row):
     s=[
         '■□■■■■□',
@@ -486,7 +582,10 @@ def symbol31 (row):
     ]
     return s[row]
 
+<<<<<<< HEAD
 #@+node:lee.20141227235536.38: ** symbol32
+=======
+>>>>>>> 371e1e3daebd7e80edd924d580544ab7a3ba13bb
 def symbol32 (row):
     s=[
         '■□■■■■□',
@@ -501,7 +600,10 @@ def symbol32 (row):
     ]
     return s[row]
 
+<<<<<<< HEAD
 #@+node:lee.20141227235536.39: ** symbol33
+=======
+>>>>>>> 371e1e3daebd7e80edd924d580544ab7a3ba13bb
 def symbol33 (row):
     s=[
         '■□■■■■□',
@@ -516,7 +618,10 @@ def symbol33 (row):
     ]
     return s[row]
 
+<<<<<<< HEAD
 #@+node:lee.20141227235536.40: ** symbol34
+=======
+>>>>>>> 371e1e3daebd7e80edd924d580544ab7a3ba13bb
 def symbol34 (row):
     s=[
         '■□■■■■□',
@@ -531,7 +636,10 @@ def symbol34 (row):
     ]
     return s[row]
 
+<<<<<<< HEAD
 #@+node:lee.20141227235536.41: ** symbol35
+=======
+>>>>>>> 371e1e3daebd7e80edd924d580544ab7a3ba13bb
 def symbol35 (row):
     s=[
         '■□■■■■□',
@@ -546,7 +654,10 @@ def symbol35 (row):
     ]
     return s[row]
 
+<<<<<<< HEAD
 #@+node:lee.20141227235536.42: ** symbol36
+=======
+>>>>>>> 371e1e3daebd7e80edd924d580544ab7a3ba13bb
 def symbol36 (row):
     s=[
         '■□□□□□□',
@@ -565,7 +676,10 @@ def symbol36 (row):
 
 
 
+<<<<<<< HEAD
 #@+node:lee.20141227235536.44: ** symbolDict(dictionary)
+=======
+>>>>>>> 371e1e3daebd7e80edd924d580544ab7a3ba13bb
 symbolDict={
     "1":symbol1, "2":symbol2, "3":symbol3, "4":symbol4,
     "5": symbol5, "6": symbol6, "7":symbol7, "8":symbol8, "9":symbol9,
@@ -576,11 +690,16 @@ symbolDict={
     "T": symbol30, "U": symbol31, "V": symbol32, "W": symbol33, "X": symbol34,
     "Y": symbol35, "Z": symbol36, "": symbolSpace,
 }
+<<<<<<< HEAD
 #@+node:lee.20141227235536.43: ** def asciiImage
 def asciiImage(inp):
     """
     字串轉成圖案, 回傳內容為 HTML 格式
     """
+=======
+
+def asciiImage(inp):
+>>>>>>> 371e1e3daebd7e80edd924d580544ab7a3ba13bb
     if inp == '':
         return ''
     row = 9
@@ -600,6 +719,10 @@ def asciiImage(inp):
             out_symbol = symbolDict.get(c, symbolDict[""])(r)
             content += out_symbol
         content += "<br />"
+<<<<<<< HEAD
     return content
 #@-others
 #@-leo
+=======
+    return content
+>>>>>>> 371e1e3daebd7e80edd924d580544ab7a3ba13bb
