@@ -10,20 +10,18 @@
 <preferences/>
 <find_panel_settings/>
 <vnodes>
-<v t="2014fall.20141212095015.1784" a="E"><vh>@settings</vh>
-<v t="2014fall.20141212095015.1785"><vh>@data qt-gui-plugin-style-sheet</vh></v>
-<v t="2014fall.20141212095015.1786"><vh>@string initial_split_orientation = horizontal</vh></v>
+<v t="2015.20141215191725.1758"><vh>@settings</vh>
+<v t="2015.20141215191725.1759"><vh>@data qt-gui-plugin-style-sheet</vh></v>
+<v t="2015.20141215191725.1760"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
-<v t="2014fall.20141212095015.1774" a="E"><vh>@path ./</vh>
-<v t="2014fall.20141212095015.1775" a="E"
-expanded="2014fall.20141212095015.1777,"><vh>@file wsgi.py</vh></v>
-<v t="2014fall.20141212095015.1780"><vh>@edit setup.py</vh></v>
+<v t="2015.20141215191725.1772" a="E"><vh>@path ./</vh>
+<v t="2015.20141215191725.1773" a="E"><vh>@file V:\cpw15\setup.py</vh></v>
+<v t="2015.20141215191725.1774" a="E"><vh>@file V:\cpw15\wsgi.py</vh></v>
 </v>
 </vnodes>
 <tnodes>
-<t tx="2014fall.20141212095015.1774"></t>
-<t tx="2014fall.20141212095015.1784"></t>
-<t tx="2014fall.20141212095015.1785">QSplitter::handle {
+<t tx="2015.20141215191725.1758"></t>
+<t tx="2015.20141215191725.1759">QSplitter::handle {
     background-color: #CAE1FF; /* lightSteelBlue1 */
 }
 
@@ -50,7 +48,7 @@ QTreeWidget {
     /*font-family: DejaVu Sans Mono;*/
     font-family:YaHei Mono;
     /* 標題字型大小設定 */
-    font-size: 20px;
+    font-size: 18px;
     font-weight: normal; /* normal,bold,100,..,900 */
     font-style: normal; /* normal, italic,oblique */
  }
@@ -63,7 +61,7 @@ QTreeWidget QLineEdit {
     /*font-family: DejaVu Sans Mono;*/    
     font-family:YaHei Mono;
     /* 沒有特別對應字型大小 */
-    font-size: 20px;
+    font-size: 17px;
     font-weight: normal; /* normal,bold,100,..,900 */
     font-style: normal; /* normal, italic,oblique */
 }
@@ -76,7 +74,7 @@ QTextEdit {
     /* font-family: Courier New; */
     font-family:YaHei Mono;
     /* log font 大小 */
-    font-size: 20px;
+    font-size: 17px;
     font-weight: normal; /* normal,bold,100,..,900 */
     font-style: normal; /* normal, italic,oblique */
 }
@@ -90,7 +88,7 @@ QTextEdit#richTextEdit {
     /* font-family: Courier New; */
     font-family:YaHei Mono;
     /* 內文字型大小 */
-    font-size: 20px;
+    font-size: 18px;
     font-weight: normal; /* normal,bold,100,..,900 */
     font-style: normal; /* normal,italic,oblique */
 }
@@ -98,7 +96,7 @@ QTextEdit#richTextEdit {
 QLabel {
     font-family:YaHei Mono;
     /* 下方的 Minibuffer 標題字型大小 */
-    font-size: 20px;
+    font-size: 17px;
     font-weight: normal; /* normal,bold,100,..,900 */
     font-style: normal; /* normal,italic,oblique */
 }
@@ -108,13 +106,14 @@ QLineEdit#editorLabel {
     background-color: #ffffec;
     font-family:YaHei Mono;
     /* 沒有直接對應字型大小 */
-    font-size: 20px;
+    font-size: 17px;
     font-weight: normal; /* normal,bold,100,..,900 */
     font-style: normal; /* normal,italic,oblique */
     border: 2px;
     margin: 2px;
 }</t>
-<t tx="2014fall.20141212095015.1786">horizontal: body pane to the left
+<t tx="2015.20141215191725.1760">horizontal: body pane to the left
 vertical: body pane on the botton</t>
+<t tx="2015.20141215191725.1772"></t>
 </tnodes>
 </leo_file>
