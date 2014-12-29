@@ -51,8 +51,6 @@ ta_mode = False
 
 ta_list = None
 
-=======
-
 if not os.path.exists(tmp_dir):
     os.makedirs(tmp_dir)
 #@+node:lee.20141221203113.57: ** student setting
