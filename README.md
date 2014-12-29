@@ -1,4 +1,8 @@
-2014cp_project
-==============
+#Computer Programming Section
+---
 
-2014 Fall Computer Programming Project
+note:
+
+12-23,2014: add example2.py
+
+
