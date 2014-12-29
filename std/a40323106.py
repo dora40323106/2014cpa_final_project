@@ -20,7 +20,7 @@ class Application(object):
         self.number = '40323106'
         self.classes = 'NFU-MDE-A'
         self.github_repo_url = 'https://github.com/mdeta/2014cp'
-        self.evaluation = [('Project 7', 80), ('Project 8', 90), ('Project 9', 100)]
+        self.evaluation = [('Project 7', 60), ('Project 8', 60), ('Project 9', 100)]
         self.photo_url = 'http://placekitten.com/g/350/300'
     #@+node:lee.20141215164031.97: *3* def get_nav
     def get_nav(self):
