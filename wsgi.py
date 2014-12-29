@@ -47,8 +47,6 @@ if not os.path.exists(tmp_dir):
 std_class = 'a'
 std_list = None
 
-ta_mode = True
-
 ta_mode = False
 
 ta_list = None
@@ -61,8 +59,6 @@ else:
 if ta_mode:
 
     ta_list = [('example', 'active'), ('example1','active'), ('example2','active')]
-
-    ta_list = [('example', 'active'), ('example1','active')]
 
 #@+node:lee.20141215164031.50: ** class Final
 class Final(object):

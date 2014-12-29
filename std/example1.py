@@ -15,11 +15,7 @@ class Application(object):
         self.name = 'Just Example'
         self.number = '40323199'
         self.classes = 'nfu'
-<<<<<<< HEAD
-        self.github_repo_url = 'https://github.com/mdeta/2014cp'
-=======
         self.github_repo_url = 'https://github.com/mdeta/2014-cp-ab'
->>>>>>> 371e1e3daebd7e80edd924d580544ab7a3ba13bb
         self.evaluation = [('Project 7', 80), ('Project 8', 90), ('Project 9', 100)]
         self.photo_url = 'http://placekitten.com/g/350/300'
         
