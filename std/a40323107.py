@@ -16,7 +16,7 @@ class Application(object):
         self.number = '40323107'
         self.classes = 'nfu'
         self.github_repo_url = 'https://github.com/mdeta/2014-cp-ab'
-        self.evaluation = [('Project 7', 60), ('Project 8', 60), ('Project 9', 60)]
+        self.evaluation = [('Project 7', 60), ('Project 8', 70), ('Project 9', 60)]
         self.photo_url = 'http://placekitten.com/g/350/300'
         
     #@+node:lee.20141221203113.53: *3* def use_template
