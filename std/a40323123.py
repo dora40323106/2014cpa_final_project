@@ -20,8 +20,9 @@ class Application(object):
         self.number = '40323123'
         self.classes = 'NFU-MDE-A'
         self.github_repo_url = 'http://cheerpy-40323123.rhcloud.com/'
-        self.evaluation = [('Project 7', 80), ('Project 8', 80), ('Project 9', 100)]
-        self.photo_url = 'http://placekitten.com/g/350/300'
+        self.evaluation = [('Project 7', 90), ('Project 8', 90), ('Project 9', 100)]
+        self.photo_url = 'https://copy.com/RZo6bJEDWAsbHUbh'
+        self.experience = """在經過這些訓練，已經對基本的網路架構有些了解"""
     #@+node:lee.20141215164031.97: *3* def get_nav
     def get_nav(self):
         """
