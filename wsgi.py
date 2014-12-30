@@ -1,5 +1,9 @@
 #@+leo-ver=5-thin
+
+
 #@+node:lee.20141224110313.46: * @file wsgi.py
+
+
 #@@language python
 #@@tabwidth -4
 
@@ -42,8 +46,19 @@ if not os.path.exists(tmp_dir):
 #@+node:lee.20141221203113.57: ** student setting
 std_class = 'a'
 std_list = None
+
+ta_mode = False
+
+ta_list = None
+
+if not os.path.exists(tmp_dir):
+    os.makedirs(tmp_dir)
+#@+node:lee.20141221203113.57: ** student setting
+std_class = 'a'
+std_list = None
 ta_mode = True
 ta_list = None
+
 
 if std_class == 'a':
     std_list = [["403231{0:02d}".format(s), "active"] for s in range(1, 58)]
@@ -51,7 +66,11 @@ else:
     std_list = [['40031226', 'active'], ['40223216', 'active']] + [["403232{0:02d}".format(s), "active"] for s in range(1, 57)]
 
 if ta_mode:
+
+
     ta_list = [('example', 'active'), ('example1','active'), ('example2','active')]
+
+
 #@+node:lee.20141215164031.50: ** class Final
 class Final(object):
     #@+others

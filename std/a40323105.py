@@ -16,13 +16,11 @@ class Application(object):
     #@+others
     #@+node:lee.20141221203113.62: *3* def __init__
     def __init__(self):
-        self.name = 'Just Example'
-        self.number = '40323198'
+        self.name = '莊舜婷'
+        self.number = '40323105'
         self.classes = 'nfu'
-
-        self.github_repo_url = 'https://github.com/mdeta/2014-cp-ab'
-
-        self.evaluation = [('Project 7', 80), ('Project 8', 90), ('Project 9', 100)]
+        self.github_repo_url = 'https://github.com/mdeta/2014cp'
+        self.evaluation = [('Project ', 70), ('Project ', 70), ('Project ', 70)]
         self.photo_url = 'http://placekitten.com/g/350/300'
     #@+node:lee.20141215164031.97: *3* def get_nav
     def get_nav(self):
