@@ -19,7 +19,7 @@ class Application(object):
         # 你的班級
         self.classes = 'nfu'
         # 你的 github repository url
-        self.github_repo_url = 'https://github.com/dora40323106/2014cpa_final_project.git'
+        self.github_repo_url = 'https://github.com/dora40323106/2014cpa_final_project'
         # 你的 bitbucket repository url
         self.bitbucket_repo_url = ''
         # 你的 openshift app
@@ -30,7 +30,7 @@ class Application(object):
         self.photo_url = 'https://copy.com/RZo6bJEDWAsbHUbh'
         # 這裡是心得
         self.my_remark = """
-        在經過這些訓練，已經對基本的網路架構有些了解，也了解到這些電腦程式語言的深奧，相信在下學期十時可以學到更多
+       在經過這些訓練，已經對基本的網路架構有些了解，也了解到這些電腦程式語言的深奧，相信在下學期十時可以學到更多
         """
 
     #@+node:lee.20141223114246.43: *3* def use_template
