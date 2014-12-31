@@ -27,7 +27,7 @@ class Application(object):
         # 你的自評
         self.evaluation = [('Project 7', 80), ('Project 8', 90), ('Project 9', 100)]
         # 你的照片 url
-        self.photo_url = 'https://copy.com/InulFmy8EQPHNhmw'
+        self.photo_url = 'https://copy.com/RZo6bJEDWAsbHUbh'
         # 這裡是心得
         self.my_remark = """
        在經過這些訓練，已經對基本的網路架構有些了解，也了解到這些電腦程式語言的深奧，相信在下學期十時可以學到更多
