@@ -16,9 +16,9 @@ class Application(object):
     #@+others
     #@+node:lee.20141221203113.62: *3* def __init__
     def __init__(self):
-        self.name = 'Chen Jing Ting'
+        self.name = '陳靖廷'
         self.number = '40323143'
-        self.classes = 'nfu'
+        self.classes = '四設計一甲'
         self.github_repo_url = 'https://github.com/mdeta/2014cp'
         self.evaluation = [('Project 7', 80), ('Project 8', 90), ('Project 9', 100)]
         self.photo_url = 'http://placekitten.com/g/350/300'
