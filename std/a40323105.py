@@ -18,8 +18,10 @@ class Application(object):
     def __init__(self):
         self.name = '莊舜婷'
         self.number = '40323105'
-        self.classes = 'NFU'
-        self.github_repo_url = 'http://cheerpy-40323123.rhcloud.com/'
+
+        self.classes = 'nfu'
+        self.github_repo_url = 'https://github.com/mdeta/2014cp'
+
         self.evaluation = [('Project ', 70), ('Project ', 70), ('Project ', 70)]
         self.photo_url = 'http://placekitten.com/g/350/300'
     #@+node:lee.20141215164031.97: *3* def get_nav
