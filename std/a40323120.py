@@ -451,7 +451,7 @@ class Application(object):
             'photo_url':self.photo_url,
         }
         return self.generate_personal_page(data)
->>>>>>> 3667170a68ce61b38de439c444a2baf31abbd07d
+
     #@-others
 #@-others
 #@-leo
