@@ -16,9 +16,8 @@ class Application(object):
     #@+others
     #@+node:lee.20141221203113.62: *3* def __init__
     def __init__(self):
-        self.name = '林宛儒'
-        self.number = '40323102'
-
+        self.name = '詹晟弘'
+        self.number = '40323150'
         self.classes = '四機械設計一甲'
         self.github_repo_url = 'https://github.com/mdeta/2014cp'
 
