@@ -13,24 +13,24 @@ class Application(object):
     #@+node:lee.20141223114246.42: *3* def init
     def __init__(self):
     	#你的名子
-        self.name = '呂致安'
+        self.name = '李韋享'
         # 你的學號
-        self.number = '40323116'
+        self.number = '40323119'
         # 你的班級
         self.classes = 'nfu'
         # 你的 github repository url
-        self.github_repo_url = 'https://github.com/dora40323106/2014cpa_final_project'
+        self.github_repo_url = 'https://github.com/dora40323106/2014cpa_final_project.git'
         # 你的 bitbucket repository url
         self.bitbucket_repo_url = ''
         # 你的 openshift app
-        self.openshift_url = 'http://cheerpy-40323123.rhcloud.com/'
+        self.openshift_url = 'http://9x9-40323119.rhcloud.com/'
         # 你的自評
-        self.evaluation = [('Project 7', 70), ('Project 8', 70), ('Project 9', 70)]
+        self.evaluation = [('Project 7', 70), ('Project 8', 60), ('Project 9', 75)]
         # 你的照片 url
-        self.photo_url = 'https://copy.com/FyApBXapg7hbCITi'
+        self.photo_url = 'https://copy.com/thumbs/DSC_0905%20(1).JPG?size=1024&revision=1'
         # 這裡是心得
         self.my_remark = """
-        整個好複雜阿  要把全部的東西串再一起，觀念要很清楚 不然整個完蛋。
+        感謝老師以及同學這學期的大力相助,讓我這學期對程式語言受益良多,雖然某些部分我還不是非常了解甚至是用硬記的,但是在這些日子過後我會盡力去理解的.希望在未來的日子我可以變成很厲害的程式設計師!!
         """
 
     #@+node:lee.20141223114246.43: *3* def use_template
