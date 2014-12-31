@@ -27,7 +27,7 @@ class Application(object):
         # 你的自評
         self.evaluation = [('Project 7', 70), ('Project 8', 70), ('Project 9', 70)]
         # 你的照片 url
-        self.photo_url = 'http://img2.wikia.nocookie.net/__cb20080309023108/zh.uncyclopedia/images/0/05/%E5%8F%B0%E5%AE%A2.jpg'
+        self.photo_url = 'https://copy.com/FyApBXapg7hbCITi'
         # 這裡是心得
         self.my_remark = """
         整個好複雜阿  要把全部的東西串再一起，觀念要很清楚 不然整個完蛋。
