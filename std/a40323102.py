@@ -8,7 +8,6 @@ import cherrypy
 import random
 from std.asciisymbol import asciiImage
 from wsgi import env
-
 #@-<<decorations>>
 
 #@+others
@@ -17,11 +16,13 @@ class Application(object):
     #@+others
     #@+node:lee.20141221203113.62: *3* def __init__
     def __init__(self):
-        self.name = '陳靖廷'
-        self.number = '40323143'
-        self.classes = '四設計一甲'
+        self.name = '林宛儒'
+        self.number = '40323102'
+
+        self.classes = 'nfu'
         self.github_repo_url = 'https://github.com/mdeta/2014cp'
-        self.evaluation = [('Project 7', 80), ('Project 8', 90), ('Project 9', 100)]
+
+        self.evaluation = [('Project5 ', 80), ('Project6 ', 80), ('Project7 ', 80)]
         self.photo_url = 'http://placekitten.com/g/350/300'
     #@+node:lee.20141215164031.97: *3* def get_nav
     def get_nav(self):
