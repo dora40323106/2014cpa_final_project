@@ -27,7 +27,7 @@ class Application(object):
         # 你的自評
         self.evaluation = [('Project 7', 70), ('Project 8', 60), ('Project 9', 75)]
         # 你的照片 url
-        self.photo_url = 'https://copy.com/thumbs/DSC_0905%20(1).JPG?size=1024&revision=1'
+        self.photo_url = 'https://copy.com/wGcz03FctVVrQS0t'
         # 這裡是心得
         self.my_remark = """
         感謝老師以及同學這學期的大力相助,讓我這學期對程式語言受益良多,雖然某些部分我還不是非常了解甚至是用硬記的,但是在這些日子過後我會盡力去理解的.希望在未來的日子我可以變成很厲害的程式設計師!!
