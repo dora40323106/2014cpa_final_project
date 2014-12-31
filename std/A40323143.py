@@ -8,6 +8,7 @@ import cherrypy
 import random
 from std.asciisymbol import asciiImage
 from wsgi import env
+
 #@-<<decorations>>
 
 #@+others
