@@ -15,7 +15,7 @@ class Application(object):
     	#你的名子
         self.name = '林祐生'
         # 你的學號
-        self.number = '40323120'
+        self.number = '40323123'
         # 你的班級
         self.classes = 'nfu'
         # 你的 github repository url
