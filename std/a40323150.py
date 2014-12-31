@@ -87,9 +87,9 @@ class Application(object):
 
         # 設定在哪種情況下該回傳哪種訊息
         message = {
-            "welcome": "guess a number from 1 to 99",
-            "error": "must input a number, your input is %s" % str(guessNumber),
-            "successful": "correct! your input is %s answer is %d total count %d" % (str(guessNumber), answer, count),
+            "welcome": "guess a number from 1 to 100",
+            "error": "sorry,you must input a number, your input is %s" % str(guessNumber),
+            "successful": "congratulation! your input %s is answer,total count %d" % (str(guessNumber), answer, count),
             "smaller": "smaller than %s and total count %d" % (str(guessNumber), count),
             "bigger": "bigger than %s and total count %d" % (str(guessNumber), count),
         }
