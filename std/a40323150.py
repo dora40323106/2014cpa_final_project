@@ -23,7 +23,7 @@ class Application(object):
         self.github_repo_url = 'https://github.com/mdeta/2014cp'
 
         self.evaluation = [('Project1 ', 75), ('Project2 ', 73), ('Project3 ', 77)]
-        self.photo_url = ''
+        self.photo_url = 'https://copy.com/RPerd1L1kYHI'
     def get_nav(self):
         """
         取得 nav link
