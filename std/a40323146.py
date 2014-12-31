@@ -17,7 +17,7 @@ class Application(object):
         # 你的學號
         self.number = '40323146'
         # 你的班級
-        self.classes = '四設計一甲l'
+        self.classes = '四設計一甲'
         # 你的 github repository url
         self.github_repo_url = 'https://github.com/dora40323106/2014cpa_final_project'
         # 你的 bitbucket repository url
@@ -27,7 +27,7 @@ class Application(object):
         # 你的自評
         self.evaluation = [('Project 7', 70), ('Project 8', 60), ('Project 9', 70)]
         # 你的照片 url
-        self.photo_url = 'https://www.copy.com/s/12YiVXH2ikyl'
+        self.photo_url = 'https://copy.com/thumbs_public/12YiVXH2ikyl/182909_459527957473195_1203823401_n.jpg?size=1024'
         # 這裡是心得
         self.my_remark = """
         剛開始都不清楚老師說甚麼，一堆術語，不過經過長久的時間，努力的學習，終於了解了一點點，但是還是有待加強
