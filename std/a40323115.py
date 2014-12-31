@@ -1,5 +1,4 @@
 #@+leo-ver=5-thin
-
 #@+node:lee.20141215164031.94: * @file example.py
 #@@language python
 #@@tabwidth -4
@@ -17,12 +16,14 @@ class Application(object):
     #@+others
     #@+node:lee.20141221203113.62: *3* def __init__
     def __init__(self):
-        self.name = '卓伯學'
-        self.number = '40323120'
-        self.classes = 'NFU-MDE-A'
-        self.github_repo_url = 'http://cheerpy-40323123.rhcloud.com/'
-        self.evaluation = [('Project 7', 80), ('Project 8', 80), ('Project 9', 100)]
-        self.photo_url = 'http://placekitten.com/g/350/300'
+        self.name = '吳政德'
+        self.number = '40323115'
+        self.classes = '四設計一甲'
+
+        self.github_repo_url = 'https://github.com/mdeta/2014-cp-ab'
+
+        self.evaluation = [('Project 7', 80), ('Project 8', 85), ('Project 9', 90)]
+        self.photo_url = 'https://copy.com/Lh7JJDB7rfO6aFzx'
     #@+node:lee.20141215164031.97: *3* def get_nav
     def get_nav(self):
         """
@@ -210,4 +211,6 @@ class Application(object):
             extra_content['output'] = asciiImage(text)
         # render
         return tmpl.render(**extra_content)
-
+    #@-others
+#@-others
+#@-leo
