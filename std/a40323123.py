@@ -1,4 +1,4 @@
-#@+leo-ver=5-thin
+﻿#@+leo-ver=5-thin
 
 #@+node:lee.20141215164031.94: * @file example.py
 #@@language python
@@ -23,7 +23,10 @@ class Application(object):
         self.github_repo_url = 'http://cheerpy-40323123.rhcloud.com/'
         self.evaluation = [('Project 7', 90), ('Project 8', 90), ('Project 9', 100)]
         self.photo_url = 'https://copy.com/RZo6bJEDWAsbHUbh'
-        self.experience = """在經過這些訓練，已經對基本的網路架構有些了解"""
+        self.experience = """在經過這些訓練，已經對基本的網路架構有些了解，雖然在細節的部份，還是有些問題存在，也希望自己可以在一下時，自己建立一個網站使用，不
+			     但可以用來管理自己的網站也可以放一些自己在上課時學習的心得，說不定到畢業時，這個網站變成我的學習歷程，也從完全不會到，完全的理解、分析，
+		             期末了，在這麼短的學期中，把一些網路的架構利用python建立出來，除了自己很有心得以外，也看到了會不一定=會教人,也是因為這樣，漸漸我想成為可以
+			     指導人的小老師，也希望自己可以為未來放上一點希望，把自己成長茁壯，變成屹立不搖的大樹，成樹蔭給後面的人乘涼。"""
     #@+node:lee.20141215164031.97: *3* def get_nav
     def get_nav(self):
         """
