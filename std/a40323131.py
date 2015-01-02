@@ -14,16 +14,16 @@ from wsgi import env
 #@+node:lee.20141215164031.96: ** class Application
 class Application(object):
     #@+others
-    #@+node:lee.20141221203113.62: *3* def __init__
+    #@+node:lee.20141221203113.62: *32* def __init__
     def __init__(self):
-        self.name = '林宛儒'
-        self.number = '40323102'
+        self.name = '張元旭'
+        self.number = '40323131'
 
         self.classes = '四機械設計一甲'
         self.github_repo_url = 'https://github.com/mdeta/2014cp'
 
-        self.evaluation = [('Project1 ', 75), ('Project2 ', 73), ('Project3 ', 77)]
-        self.photo_url = 'https://copy.com/ZrqiqOH9qxpEfkPj'
+        self.evaluation = [('Project1 ', 70), ('Project2 ', 75), ('Project3 ', 75)]
+        self.photo_url = 'https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-xfa1/t31.0-8/457183_220670251370939_42867196_o.jpg'
     def get_nav(self):
         """
         取得 nav link
@@ -31,7 +31,7 @@ class Application(object):
         #(URL 路徑, anchor name)
         anchors = [('index', 'home'), ('guessForm', '猜數字'), ('multipliedTable', '乘法表'), ('asciiForm', '使用圖案印出字'), (self.github_repo_url, 'github repository'), ('/', 'back to list')]
         return anchors
-    #@+node:lee.20141215164031.98: *3* def index
+    #@+node:lee.20141215164031.98: *32* def index
     @cherrypy.expose
     def index(self):
         """
