@@ -89,13 +89,13 @@ class Application(object):
       <link rel="icon" type="image/png" href="/static/images/favicon.png" />
 
     </head>
-        <audio id="jp_audio_0" preload="metadata" autoplay="true" loop hidden="true" controls src="https://drive.google.com/uc?id=0B2htBN67c7W7bzBxNTlXb2RkRlU&authuser=0&export=download">
-        </audio>
     <body>
 
       <!-- Primary Page Layout
       –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <!-- .container is main centered wrapper -->
+        <audio id="jp_audio_0" preload="metadata" autoplay="true" loop hidden="true" controls src="https://drive.google.com/uc?id=0B2htBN67c7W7bzBxNTlXb2RkRlU&authuser=0&export=download">
+        </audio>
     <div class="container">
     """
         below = """
