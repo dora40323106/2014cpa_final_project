@@ -16,10 +16,10 @@ class Application(object):
     #@+others
     #@+node:lee.20141221203113.62: *3* def __init__
     def __init__(self):
-        self.name = '林意欣'
-        self.number = '40323103'
+        self.name = '張哲銘'
+        self.number = '40323132'
 
-        self.classes = 'nfu'
+        self.classes = '四設計一甲'
         self.github_repo_url = 'https://github.com/mdeta/2014cp'
 
         self.evaluation = [('Project5 ', 85), ('Project6 ', 85), ('Project7 ', 85)]

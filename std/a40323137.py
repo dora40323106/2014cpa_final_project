@@ -13,23 +13,27 @@ class Application(object):
     #@+node:lee.20141223114246.42: *3* def init
     def __init__(self):
     	#你的名子
-        self.name = '60+'
+        self.name = '郭世欣'
         # 你的學號
-        self.number = '40323107'
+        self.number = '40323137'
         # 你的班級
-        self.classes = 'nfu'
+        self.classes = '四設計一甲'
         # 你的 github repository url
-        self.github_repo_url = 'https://github.com/dora40323106/2014cpa_final_project'
-        # 你的 bitbucket repository url        self.bitbucket_repo_url = ''
+        self.github_repo_url = 'https://github.com/mdeta/2014cp'
+        # 你的 bitbucket repository url
+        self.bitbucket_repo_url = ''
         # 你的 openshift app
-        self.openshift_url = 'http://cpa-nfutaiwan.rhcloud.com/'
+        self.openshift_url = ''
         # 你的自評
-        self.evaluation = [('Project 10', 60), ('Project 11', 60), ('Project 12', 60)]
+        self.evaluation = [('Project 7', 70), ('Project 8', 70), ('Project 9', 70)]
         # 你的照片 url
-        self.photo_url = 'http://placekitten.com/g/350/300'
+        self.photo_url = 'https://copy.com/cuwgnwQudUGnDOm7'
         # 這裡是心得
         self.my_remark = """
-        python very different
+        在課程前端，雖然摸不著頭緒，但有老師使用CamStudio記錄著影片，
+        讓後學能夠自己打造環境，在錯誤中透過老師的教學影片，能夠察覺
+        自己的錯誤所在，加上在班上有許多熱心的同學幫忙；這些人打前鋒，讓我們這些迷途羔羊，如
+        在黑暗中受到燈塔指引，一切皆明朗。只是看有沒有心要多練習而已。
         """
 
     #@+node:lee.20141223114246.43: *3* def use_template

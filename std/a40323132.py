@@ -16,13 +16,15 @@ class Application(object):
     #@+others
     #@+node:lee.20141221203113.62: *3* def __init__
     def __init__(self):
-        self.name = '詹晟弘'
-        self.number = '40323150'
-        self.classes = '四機械設計一甲'
+        self.name = '張哲銘'
+        self.number = '40323132'
+
+        self.classes = '四設計一甲'
         self.github_repo_url = 'https://github.com/mdeta/2014cp'
 
-        self.evaluation = [('Project1 ', 75), ('Project2 ', 73), ('Project3 ', 77)]
-        self.photo_url = 'https://copy.com/RPerd1L1kYHI'
+        self.evaluation = [('Project5 ', 65), ('Project6 ', 65), ('Project7 ', 70)]
+        self.photo_url = 'https://copy.com/thumbs/IMAG0538.jpg?size=1024&revision=1'
+    #@+node:lee.20141215164031.97: *3* def get_nav
     def get_nav(self):
         """
         取得 nav link
@@ -87,9 +89,9 @@ class Application(object):
 
         # 設定在哪種情況下該回傳哪種訊息
         message = {
-            "welcome": "guess a number from 1 to 100",
-            "error": "sorry,you must input a number, your input is %s" % str(guessNumber),
-            "successful": "congratulation! your input %s is answer,total count %d" % (str(guessNumber), answer, count),
+            "welcome": "guess a number from 1 to 99",
+            "error": "must input a number, your input is %s" % str(guessNumber),
+            "successful": "correct! your input is %s answer is %d total count %d" % (str(guessNumber), answer, count),
             "smaller": "smaller than %s and total count %d" % (str(guessNumber), count),
             "bigger": "bigger than %s and total count %d" % (str(guessNumber), count),
         }
