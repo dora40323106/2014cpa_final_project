@@ -29,8 +29,9 @@ class Application(object):
         # 你的照片 url
         self.photo_url = 'https://copy.com/WUBwQIGU6ycS4qPc'
         # 這裡是心得
-        self.my_remark = """
+        self.my_remark = """<span style="color: #E60000;">
         從懵懂無知慢慢地摸索，漸漸地豁然開朗。
+        </span>
         """
 
     #@+node:lee.20141223114246.43: *3* def use_template
@@ -233,7 +234,7 @@ class Application(object):
     def remark(self):
         # 這裡是心得
         # generate_headline_page(你的標題, 你的內容)
-        return self.generate_headline_page("REMARK", self.my_remark)
+        return self.generate_headline_page( self.my_remark)
     #@+node:lee.20141223114246.48: *3* def index
     @cherrypy.expose
     def index(self):
