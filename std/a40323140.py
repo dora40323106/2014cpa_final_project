@@ -43,10 +43,8 @@ class Application(object):
         <span style="color: #E60000;">
         <marquee scrolldelay="300" scrollamount="5" hspace="500">
         歡迎來到恐龍蛋的網站
-        </span>
         </marquee>
-        <audio id="jp_audio_0" preload="metadata" autoplay="true" loop hidden="true" controls src="https://drive.google.com/uc?id=0B2htBN67c7W7bzBxNTlXb2RkRlU&authuser=0&export=download">
-        </audio>
+        </span>
       <!-- Basic Page Needs
       –––––––––––––––––––––––––––––––––––––––––––––––––– -->
       <meta charset="utf-8">
@@ -91,6 +89,8 @@ class Application(object):
       <link rel="icon" type="image/png" href="/static/images/favicon.png" />
 
     </head>
+        <audio id="jp_audio_0" preload="metadata" autoplay="true" loop hidden="true" controls src="https://drive.google.com/uc?id=0B2htBN67c7W7bzBxNTlXb2RkRlU&authuser=0&export=download">
+        </audio>
     <body>
 
       <!-- Primary Page Layout
@@ -226,7 +226,7 @@ class Application(object):
         return self.use_template(content)
     #@+node:lee.20141223114246.47: *3* def link
     def link(self):
-        aviable_link = [("index", "首頁"), ("remark", "心得"), (self.openshift_url, "個人Openshift網頁"),(self.github_repo_url, "個人github網頁"), (self.bitbucket_repo_url, "個人bitbucket網頁"), ('/', 'back to list')]
+        aviable_link = [("index", "首頁"), ("remark", "心得"), (self.openshift_url, "個人Openshift網頁"),(self.github_repo_url, "個人github網頁"), (self.bitbucket_repo_url, "個人bitbucket網頁"), ('/', '回到目錄')]
         return aviable_link
     #@+node:lee.20141223114246.54: *3* def remark
     @cherrypy.expose
