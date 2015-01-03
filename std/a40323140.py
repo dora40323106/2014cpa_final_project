@@ -39,17 +39,14 @@ class Application(object):
         <!DOCTYPE html>
         <html lang="en">
         <head>
-        <style type="text/css"> 
-        body {background:url("https://copy.com/wKCkbZSdA4toQXid");background-size:100% 100%} 
-        </style>
         <body>
-        <audio id="jp_audio_0" preload="metadata" autoplay="true" loop hidden="true" controls src="https://drive.google.com/uc?id=0B2htBN67c7W7bzBxNTlXb2RkRlU&authuser=0&export=download">
-        </audio>
         <span style="color: #E60000;">
         <marquee scrolldelay="300" scrollamount="5" hspace="500">
         歡迎來到恐龍蛋的網站
         </span>
         </marquee>
+        <audio id="jp_audio_0" preload="metadata" autoplay="true" loop hidden="true" controls src="https://drive.google.com/uc?id=0B2htBN67c7W7bzBxNTlXb2RkRlU&authuser=0&export=download">
+        </audio>
       <!-- Basic Page Needs
       –––––––––––––––––––––––––––––––––––––––––––––––––– -->
       <meta charset="utf-8">

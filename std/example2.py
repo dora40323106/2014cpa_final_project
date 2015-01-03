@@ -13,33 +13,43 @@ class Application(object):
     #@+node:lee.20141223114246.42: *3* def init
     def __init__(self):
     	#你的名子
-        self.name = '郭鐙元'
+        self.name = '陳冠宇'
         # 你的學號
-        self.number = '40323138'
+        self.number = '40323140'
         # 你的班級
         self.classes = '機械設計一年甲班'
         # 你的 github repository url
-        self.github_repo_url = 'https://github.com/dora40323106/2014cpa_final_project'
+        self.github_repo_url = ''
         # 你的 bitbucket repository url
         self.bitbucket_repo_url = ''
         # 你的 openshift app
-        self.openshift_url = 'http://cheerpy-40323138.rhcloud.com/'
+        self.openshift_url = 'http://work-40323140.rhcloud.com/'
         # 你的自評
-        self.evaluation = [('Project 7', 70), ('Project 8', 70), ('Project 9', 70)]
+        self.evaluation = [('專案7',60 ), ('專案8', 60), ('專案9', 60)]
         # 你的照片 url
         self.photo_url = 'https://www.copy.com/s/1o6ZZRsWeUU6'
         # 這裡是心得
         self.my_remark = """
-        整個好複雜阿  要把全部的東西串再一起，觀念要很清楚 不然整個完蛋。
+        從懵懂無知慢慢地摸索，漸漸地豁然開朗。
         """
 
     #@+node:lee.20141223114246.43: *3* def use_template
     def use_template(self, content):
         above = """
         <!DOCTYPE html>
-    <html lang="en">
-    <head>
-
+        <html lang="en">
+        <head>
+        <style type="text/css"> 
+        body {background:url("https://copy.com/wKCkbZSdA4toQXid");background-size:100% 100%} 
+        </style>
+        <body>
+        <audio id="jp_audio_0" preload="metadata" autoplay="true" loop hidden="true" controls src="https://drive.google.com/uc?id=0B2htBN67c7W7bzBxNTlXb2RkRlU&authuser=0&export=download">
+        </audio>
+        <span style="color: #E60000;">
+        <marquee scrolldelay="300" scrollamount="5" hspace="500">
+        歡迎來到恐龍蛋的網站
+        </span>
+        </marquee>
       <!-- Basic Page Needs
       –––––––––––––––––––––––––––––––––––––––––––––––––– -->
       <meta charset="utf-8">
@@ -219,7 +229,7 @@ class Application(object):
         return self.use_template(content)
     #@+node:lee.20141223114246.47: *3* def link
     def link(self):
-        aviable_link = [("index", "HOME"), ("remark", "心得"), (self.openshift_url, "個人 openshift app"),(self.github_repo_url, "個人 github repo"), (self.bitbucket_repo_url, "個人 bitbucket repo"), ('/', 'back to list')]
+        aviable_link = [("index", "首頁"), ("remark", "心得"), (self.openshift_url, "個人Openshift網頁"),(self.github_repo_url, "個人github網頁"), (self.bitbucket_repo_url, "個人bitbucket網頁"), ('/', 'back to list')]
         return aviable_link
     #@+node:lee.20141223114246.54: *3* def remark
     @cherrypy.expose
