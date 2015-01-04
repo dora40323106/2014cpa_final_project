@@ -25,12 +25,12 @@ class Application(object):
         # 你的 openshift app
         self.openshift_url = ''
         # 你的自評
-        self.evaluation = [('專案7',60 ), ('專案8', 60), ('專案9', 60)]
+        self.evaluation = [('Project 7',60 ), ('Project 8', 60), ('Project 9', 60)]
         # 你的照片 url
         self.photo_url = 'http://placekitten.com/g/350/300'
         # 這裡是心得
         self.my_remark = """
-        從懵懂無知慢慢地摸索，漸漸地豁然開朗。
+        
         """
 
     #@+node:lee.20141223114246.43: *3* def use_template
