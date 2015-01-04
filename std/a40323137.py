@@ -19,15 +19,14 @@ class Application(object):
         # 你的班級
         self.classes = '四設計一甲'
         # 你的 github repository url
-        self.github_repo_url = 'https://github.com/mdeta/2014cp'
+        self.github_repo_url = 'https://github.com/awpdv/2014cp_project-40323137'
         # 你的 bitbucket repository url
-        self.bitbucket_repo_url = ''
         # 你的 openshift app
-        self.openshift_url = ''
+        self.openshift_url = 'http://40323137-awpdv.rhcloud.com/'
         # 你的自評
-        self.evaluation = [('Project 7', 70), ('Project 8', 70), ('Project 9', 70)]
+        self.evaluation = [('Project 7', 75), ('Project 8', 75), ('Project 9', 75)]
         # 你的照片 url
-        self.photo_url = 'https://copy.com/cuwgnwQudUGnDOm7'
+        self.photo_url = 'https://copy.com/Tsn966BKSO8tdBMB'
         # 這裡是心得
         self.my_remark = """
         在課程前端，雖然摸不著頭緒，但有老師使用CamStudio記錄著影片，
