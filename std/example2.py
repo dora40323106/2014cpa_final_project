@@ -13,21 +13,21 @@ class Application(object):
     #@+node:lee.20141223114246.42: *3* def init
     def __init__(self):
     	#你的名子
-        self.name = '呂致安'
+        self.name = '郭鐙元'
         # 你的學號
-        self.number = '40323116'
+        self.number = '40323138'
         # 你的班級
-        self.classes = 'nfu'
+        self.classes = '機械設計一年甲班'
         # 你的 github repository url
         self.github_repo_url = 'https://github.com/dora40323106/2014cpa_final_project'
         # 你的 bitbucket repository url
         self.bitbucket_repo_url = ''
         # 你的 openshift app
-        self.openshift_url = 'http://cheerpy-40323123.rhcloud.com/'
+        self.openshift_url = 'http://cheerpy-40323138.rhcloud.com/'
         # 你的自評
         self.evaluation = [('Project 7', 70), ('Project 8', 70), ('Project 9', 70)]
         # 你的照片 url
-        self.photo_url = 'https://copy.com/FyApBXapg7hbCITi'
+        self.photo_url = 'https://www.copy.com/s/1o6ZZRsWeUU6'
         # 這裡是心得
         self.my_remark = """
         整個好複雜阿  要把全部的東西串再一起，觀念要很清楚 不然整個完蛋。
