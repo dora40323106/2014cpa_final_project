@@ -19,7 +19,7 @@ class Application(object):
         # 你的班級
         self.classes = '機械設計一年甲班'
         # 你的 github repository url
-        self.github_repo_url = ''
+        self.github_repo_url = 'https://github.com/a5417823/Willy-Python-Work'
         # 你的 bitbucket repository url
         self.bitbucket_repo_url = ''
         # 你的 openshift app
@@ -27,9 +27,9 @@ class Application(object):
         # 你的自評
         self.evaluation = [('專案7',60 ), ('專案8', 60), ('專案9', 60)]
         # 你的照片 url
-        self.photo_url = 'https://copy.com/WUBwQIGU6ycS4qPc'
+        self.photo_url = 'https://copy.com/GdWcR4hXATd6cAw7'
         # 這裡是心得
-        self.my_remark = """<span style="color: #E60000;">
+        self.my_remark = """<span style="color: orange;">
         從懵懂無知慢慢地摸索，漸漸地豁然開朗。
         </span>
         """
@@ -189,29 +189,29 @@ class Application(object):
     <div class="row">
       <div class="one-half column">
         <div class="headline">
-          About Me
+          關於我
         </div>
         <div class="photo">
           <img src="{photo_url:s}" alt="photo">
         </div>
         <div class="meta">
           <ul>
-            <li>Name: {name:s}</li>
-            <li>ID NO. : {ID:s}</li>
-            <li>Class: {class:s}</li>
+            <li>姓名: {name:s}</li>
+            <li>學號. : {ID:s}</li>
+            <li>班級: {class:s}</li>
           </ul>
         </div>
       </div>
       <div class="one-half column">
         <div class="headline">
-          Self Evaluation
+          自我評價
         </div>
         <div>
           <table class="u-full-width">
             <thead>
               <tr>
-                <th>Project Name</th>
-                <th>Score</th>
+                <th>專案名稱</th>
+                <th>分數</th>
               </tr>
             </thead>
             <tbody>
