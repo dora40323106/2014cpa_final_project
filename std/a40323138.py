@@ -14,7 +14,25 @@ class Application(object):
     def __init__(self):
         self.name = '郭鐙元'
         self.number = '40323138'
+<<<<<<< HEAD
+        # 你的班級
+        self.classes = '機械設計一年甲班'
+        # 你的 github repository url
+        self.github_repo_url = 'https://github.com/dora40323106/2014cpa_final_project'
+        # 你的 bitbucket repository url
+        self.bitbucket_repo_url = ''
+        # 你的 openshift app
+        self.openshift_url = 'https://openshift.redhat.com/app/console/domain/40323138'
+        # 你的自評
+        self.evaluation = [('Project 7', 80), ('Project 8',75 ), ('Project 9',60 )]
+        # 你的照片 url
+        self.photo_url = 'https://copy.com/1o6ZZRsWeUU6'
+        self.my_remark = """
+        Zzzz。
+        """
+=======
         self.classes = 'nfu'
+>>>>>>> 1e82916bb54b90df845b2a6f6ca1a606135c85c7
 
         self.github_repo_url = 'https://github.com/mdeta/2014-cp-ab'
         self.evaluation = [('Project 7', 80), ('Project 8', 80), ('Project 9', 60)]
