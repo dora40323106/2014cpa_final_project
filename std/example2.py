@@ -13,33 +13,45 @@ class Application(object):
     #@+node:lee.20141223114246.42: *3* def init
     def __init__(self):
     	#你的名子
+<<<<<<< HEAD
         self.name = '陳律廷'
         # 你的學號
         self.number = '40323141'
+=======
+        self.name = 'Just Example'
+        # 你的學號
+        self.number = '40323199'
+>>>>>>> 1e82916bb54b90df845b2a6f6ca1a606135c85c7
         # 你的班級
-        self.classes = '機械設計一年甲班'
+        self.classes = 'nfu'
         # 你的 github repository url
         self.github_repo_url = 'https://github.com/dora40323106/2014cpa_final_project'
         # 你的 bitbucket repository url
         self.bitbucket_repo_url = ''
         # 你的 openshift app
-        self.openshift_url = 'http://cheerpy-40323138.rhcloud.com/'
+        self.openshift_url = ''
         # 你的自評
+<<<<<<< HEAD
         self.evaluation = [('Project 7', 75), ('Project 8', 75), ('Project 9', 75)]
         # 你的照片 url
         self.photo_url = 'https://copy.com/thumbs_public/TkTnLu73nuMT/41.jpg?size=1024'
+=======
+        self.evaluation = [('Project 7',60 ), ('Project 8', 60), ('Project 9', 60)]
+        # 你的照片 url
+        self.photo_url = 'http://placekitten.com/g/350/300'
+>>>>>>> 1e82916bb54b90df845b2a6f6ca1a606135c85c7
         # 這裡是心得
         self.my_remark = """
-        整個好複雜阿  要把全部的東西串再一起，觀念要很清楚 不然整個完蛋。
+        
         """
 
     #@+node:lee.20141223114246.43: *3* def use_template
     def use_template(self, content):
         above = """
         <!DOCTYPE html>
-    <html lang="en">
-    <head>
-
+        <html lang="en">
+        <head>
+        
       <!-- Basic Page Needs
       –––––––––––––––––––––––––––––––––––––––––––––––––– -->
       <meta charset="utf-8">
@@ -219,7 +231,7 @@ class Application(object):
         return self.use_template(content)
     #@+node:lee.20141223114246.47: *3* def link
     def link(self):
-        aviable_link = [("index", "HOME"), ("remark", "心得"), (self.openshift_url, "個人 openshift app"),(self.github_repo_url, "個人 github repo"), (self.bitbucket_repo_url, "個人 bitbucket repo"), ('/', 'back to list')]
+        aviable_link = [("index", "HOME"), ("remark", "心得"), (self.openshift_url, "個人Openshift APP"),(self.github_repo_url, "個人github REPO"), (self.bitbucket_repo_url, "個人bitbucket REPO"), ('/', 'back to list')]
         return aviable_link
     #@+node:lee.20141223114246.54: *3* def remark
     @cherrypy.expose
