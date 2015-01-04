@@ -19,20 +19,18 @@ class Application(object):
         # 你的班級
         self.classes = '四設計一甲'
         # 你的 github repository url
-        self.github_repo_url = 'https://github.com/mdeta/2014cp'
-        # 你的 bitbucket repository url
-        self.bitbucket_repo_url = ''
+        self.github_repo_url = 'https://github.com/awpdv/2014cp_project-40323137'
         # 你的 openshift app
-        self.openshift_url = ''
+        self.openshift_url = 'http://40323137-awpdv.rhcloud.com/'
         # 你的自評
-        self.evaluation = [('Project 7', 70), ('Project 8', 70), ('Project 9', 70)]
+        self.evaluation = [('Project 7', 75), ('Project 8', 75), ('Project 9', 75)]
         # 你的照片 url
-        self.photo_url = 'https://copy.com/cuwgnwQudUGnDOm7'
+        self.photo_url = 'https://copy.com/Tsn966BKSO8tdBMB'
         # 這裡是心得
         self.my_remark = """
         在課程前端，雖然摸不著頭緒，但有老師使用CamStudio記錄著影片，
-        讓後學能夠自己打造環境，在錯誤中透過老師的教學影片，能夠察覺
-        自己的錯誤所在，加上在班上有許多熱心的同學幫忙；這些人打前鋒，讓我們這些迷途羔羊，如
+        讓後學能夠自己打造環境；在錯誤中透過老師的教學影片，能夠察覺
+        自己的錯誤所在，加上在班上有許多熱心的同學幫忙，這些人打前鋒，讓我們這些迷途羔羊，如
         在黑暗中受到燈塔指引，一切皆明朗。只是看有沒有心要多練習而已。
         """
 
@@ -222,7 +220,7 @@ class Application(object):
         return self.use_template(content)
     #@+node:lee.20141223114246.47: *3* def link
     def link(self):
-        aviable_link = [("index", "HOME"), ("remark", "心得"), (self.openshift_url, "個人 openshift app"),(self.github_repo_url, "個人 github repo"), (self.bitbucket_repo_url, "個人 bitbucket repo"), ('/', 'back to list')]
+        aviable_link = [("index", "首頁"), ("remark", "心得"), (self.openshift_url, "個人 openshift app"),(self.github_repo_url, "個人 github repo"), (self.bitbucket_repo_url, "個人 bitbucket repo"), ('/', 'back to list')]
         return aviable_link
     #@+node:lee.20141223114246.54: *3* def remark
     @cherrypy.expose
