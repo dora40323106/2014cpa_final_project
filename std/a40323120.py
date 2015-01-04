@@ -20,7 +20,7 @@ class Application(object):
         self.name = '卓伯學'
         self.number = '40323120'
         self.classes = 'NFU-MDE-A'
-        self.github_repo_url = 'http://cheerpy-40323123.rhcloud.com/'
+        self.github_repo_url = ''
         self.evaluation = [('Project 7', 80), ('Project 8', 80), ('Project 9', 100)]
         self.photo_url = 'http://placekitten.com/g/350/300'
     #@+node:lee.20141215164031.97: *3* def get_nav
