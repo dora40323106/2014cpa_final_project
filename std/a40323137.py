@@ -20,7 +20,6 @@ class Application(object):
         self.classes = '四設計一甲'
         # 你的 github repository url
         self.github_repo_url = 'https://github.com/awpdv/2014cp_project-40323137'
-        # 你的 bitbucket repository url
         # 你的 openshift app
         self.openshift_url = 'http://40323137-awpdv.rhcloud.com/'
         # 你的自評
