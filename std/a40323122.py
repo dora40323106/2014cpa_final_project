@@ -23,23 +23,23 @@ class Application(object):
         # 你的 bitbucket repository url
         self.bitbucket_repo_url = ''
         # 你的 openshift app
-        self.openshift_url = 'http://cheerpy-40323123.rhcloud.com/'
+        self.openshift_url = 'http://python-40323122.rhcloud.com/'
         # 你的自評
-        self.evaluation = [('Project 7', 70), ('Project 8', 70), ('Project 9', 70)]
+        self.evaluation = [('Project 7',70 ), ('Project 8', 70), ('Project 9', 70)]
         # 你的照片 url
-        self.photo_url = 'https://copy.com/FyApBXapg7hbCITi'
+        self.photo_url = 'https://copy.com/QuOCdqjRymiwSB4J'
         # 這裡是心得
         self.my_remark = """
-        整個好複雜阿  要把全部的東西串再一起，觀念要很清楚 不然整個完蛋。
+        這門課真是可愛，搞了一頭霧水，感謝23號同學的指導  
         """
 
     #@+node:lee.20141223114246.43: *3* def use_template
     def use_template(self, content):
         above = """
         <!DOCTYPE html>
-    <html lang="en">
-    <head>
-
+        <html lang="en">
+        <head>
+        
       <!-- Basic Page Needs
       –––––––––––––––––––––––––––––––––––––––––––––––––– -->
       <meta charset="utf-8">
@@ -219,7 +219,7 @@ class Application(object):
         return self.use_template(content)
     #@+node:lee.20141223114246.47: *3* def link
     def link(self):
-        aviable_link = [("index", "HOME"), ("remark", "心得"), (self.openshift_url, "個人 openshift app"),(self.github_repo_url, "個人 github repo"), (self.bitbucket_repo_url, "個人 bitbucket repo"), ('/', 'back to list')]
+        aviable_link = [("index", "HOME"), ("remark", "心得"), (self.openshift_url, "個人Openshift APP"),(self.github_repo_url, "個人github REPO"), (self.bitbucket_repo_url, "個人bitbucket REPO"), ('/', 'back to list')]
         return aviable_link
     #@+node:lee.20141223114246.54: *3* def remark
     @cherrypy.expose
