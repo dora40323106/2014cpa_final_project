@@ -23,14 +23,14 @@ class Application(object):
         # 你的 bitbucket repository url
         self.bitbucket_repo_url = ''
         # 你的 openshift app
-        self.openshift_url = 'http://cheerpy-40323138.rhcloud.com/'
+        self.openshift_url = 'http://cheerpy-40323141.rhcloud.com/'
         # 你的自評
         self.evaluation = [('Project 7', 75), ('Project 8', 75), ('Project 9', 75)]
         # 你的照片 url
         self.photo_url = 'https://copy.com/thumbs_public/TkTnLu73nuMT/41.jpg?size=1024'
         # 這裡是心得
         self.my_remark = """
-        整個好複雜阿  要把全部的東西串再一起，觀念要很清楚 不然整個完蛋。
+        真的好難學阿，還是要靠同學幫忙才會做，一開始沒認真聽後面就會跟不上，真的要好好學。
         """
 
     #@+node:lee.20141223114246.43: *3* def use_template
