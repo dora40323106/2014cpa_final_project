@@ -13,34 +13,39 @@ class Application(object):
     #@+node:lee.20141223114246.42: *3* def init
     def __init__(self):
     	#你的名子
-        self.name = '郭世欣'
+        self.name = '陳冠宇'
         # 你的學號
-        self.number = '40323137'
+        self.number = '40323140'
         # 你的班級
-        self.classes = '四設計一甲'
+        self.classes = '機械設計一年甲班'
         # 你的 github repository url
-        self.github_repo_url = 'https://github.com/awpdv/2014cp_project-40323137'
+        self.github_repo_url = 'https://github.com/a5417823/Willy-Python-Work.git'
+        # 你的 bitbucket repository url
+        self.bitbucket_repo_url = 'https://a5417823@bitbucket.org/a5417823/backup.git'
         # 你的 openshift app
-        self.openshift_url = 'http://40323137-awpdv.rhcloud.com/'
+        self.openshift_url = 'http://work-40323140.rhcloud.com/'
         # 你的自評
-        self.evaluation = [('Project 7', 75), ('Project 8', 75), ('Project 9', 75)]
+        self.evaluation = [('專案7',60 ), ('專案8', 60), ('專案9', 60)]
         # 你的照片 url
-        self.photo_url = 'https://copy.com/Tsn966BKSO8tdBMB'
+        self.photo_url = 'https://copy.com/GdWcR4hXATd6cAw7'
         # 這裡是心得
-        self.my_remark = """
-        在課程前端，雖然摸不著頭緒，但有老師使用CamStudio記錄著影片，
-        讓後學能夠自己打造環境；在錯誤中透過老師的教學影片，能夠察覺
-        自己的錯誤所在，加上在班上有許多熱心的同學幫忙，這些人打前鋒，讓我們這些迷途羔羊，如
-        在黑暗中受到燈塔指引，一切皆明朗。只是看有沒有心要多練習而已。
+        self.my_remark = """<span style="color: orange;">
+        從懵懂無知慢慢地摸索，漸漸地豁然開朗。
+        </span>
         """
 
     #@+node:lee.20141223114246.43: *3* def use_template
     def use_template(self, content):
         above = """
         <!DOCTYPE html>
-    <html lang="en">
-    <head>
-
+        <html lang="en">
+        <head>
+        <body>
+        <span style="color: #E60000;">
+        <marquee scrolldelay="300" scrollamount="5" hspace="500">
+        歡迎來到恐龍蛋的網站
+        </marquee>
+        </span>
       <!-- Basic Page Needs
       –––––––––––––––––––––––––––––––––––––––––––––––––– -->
       <meta charset="utf-8">
@@ -90,6 +95,8 @@ class Application(object):
       <!-- Primary Page Layout
       –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <!-- .container is main centered wrapper -->
+        <audio id="jp_audio_0" preload="metadata" autoplay="true" loop hidden="true" controls src="https://drive.google.com/uc?id=0B2htBN67c7W7bzBxNTlXb2RkRlU&authuser=0&export=download">
+        </audio>
     <div class="container">
     """
         below = """
@@ -182,29 +189,29 @@ class Application(object):
     <div class="row">
       <div class="one-half column">
         <div class="headline">
-          About Me
+          關於我
         </div>
         <div class="photo">
           <img src="{photo_url:s}" alt="photo">
         </div>
         <div class="meta">
           <ul>
-            <li>Name: {name:s}</li>
-            <li>ID NO. : {ID:s}</li>
-            <li>Class: {class:s}</li>
+            <li>姓名: {name:s}</li>
+            <li>學號. : {ID:s}</li>
+            <li>班級: {class:s}</li>
           </ul>
         </div>
       </div>
       <div class="one-half column">
         <div class="headline">
-          Self Evaluation
+          自我評分
         </div>
         <div>
           <table class="u-full-width">
             <thead>
               <tr>
-                <th>Project Name</th>
-                <th>Score</th>
+                <th>專案名稱</th>
+                <th>分數</th>
               </tr>
             </thead>
             <tbody>
@@ -220,18 +227,14 @@ class Application(object):
         return self.use_template(content)
     #@+node:lee.20141223114246.47: *3* def link
     def link(self):
-<<<<<<< HEAD
-        aviable_link = [("index", "首頁"), ("remark", "心得"), (self.openshift_url, "個人 openshift app"),(self.github_repo_url, "個人 github repo"), (self.bitbucket_repo_url, "個人 bitbucket repo"), ('/', 'back to list')]
-=======
-        aviable_link = [("index", "首頁"), ("remark", "心得"), (self.openshift_url, "個人 openshift app"),(self.github_repo_url, "個人 github repo"), ('/', 'back to list')]
->>>>>>> 1e82916bb54b90df845b2a6f6ca1a606135c85c7
+        aviable_link = [("index", "首頁"), ("remark", "心得"), (self.openshift_url, "個人Openshift網頁"),(self.github_repo_url, "個人github網頁"), (self.bitbucket_repo_url, "個人bitbucket網頁"), ('/', '回到目錄')]
         return aviable_link
     #@+node:lee.20141223114246.54: *3* def remark
     @cherrypy.expose
     def remark(self):
         # 這裡是心得
         # generate_headline_page(你的標題, 你的內容)
-        return self.generate_headline_page("REMARK", self.my_remark)
+        return self.generate_headline_page("心得",self.my_remark)
     #@+node:lee.20141223114246.48: *3* def index
     @cherrypy.expose
     def index(self):

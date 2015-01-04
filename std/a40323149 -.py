@@ -16,14 +16,15 @@ class Application(object):
     #@+others
     #@+node:lee.20141221203113.62: *3* def __init__
     def __init__(self):
-        self.name = '林宛儒'
-        self.number = '40323102'
+        self.name = '楊智堯'
+        self.number = '40323149'
 
-        self.classes = '四機械設計一甲'
+        self.classes = '四設計一甲'
         self.github_repo_url = 'https://github.com/mdeta/2014cp'
 
-        self.evaluation = [('Project1 ', 75), ('Project2 ', 73), ('Project3 ', 77)]
-        self.photo_url = 'https://copy.com/ZrqiqOH9qxpEfkPj'
+        self.evaluation = [('Project5 ', 70), ('Project6 ', 70), ('Project7 ', 70)]
+        self.photo_url = 'https://copy.com/cWyVkmlWSqLS'
+    #@+node:lee.20141215164031.97: *3* def get_nav
     def get_nav(self):
         """
         取得 nav link
