@@ -21,7 +21,7 @@ class Application(object):
         # 你的 github repository url
         self.github_repo_url = 'https://github.com/a5417823/Willy-Python-Work'
         # 你的 bitbucket repository url
-        self.bitbucket_repo_url = ''
+        self.bitbucket_repo_url = 'https://bitbucket.org/a5417823/backup'
         # 你的 openshift app
         self.openshift_url = 'http://work-40323140.rhcloud.com/'
         # 你的自評
@@ -55,7 +55,7 @@ class Application(object):
 
       <!-- Mobile Specific Metas
       –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="width=device-width, initial-scale=0">
 
       <!-- FONT
       –––––––––––––––––––––––––––––––––––––––––––––––––– -->
