@@ -13,21 +13,21 @@ class Application(object):
     #@+node:lee.20141223114246.42: *3* def init
     def __init__(self):
     	#你的名子
-        self.name = '陳冠宇'
+        self.name = 'Just Example'
         # 你的學號
-        self.number = '40323140'
+        self.number = '40323199'
         # 你的班級
-        self.classes = '機械設計一年甲班'
+        self.classes = 'nfu'
         # 你的 github repository url
-        self.github_repo_url = ''
+        self.github_repo_url = 'https://github.com/dora40323106/2014cpa_final_project'
         # 你的 bitbucket repository url
         self.bitbucket_repo_url = ''
         # 你的 openshift app
-        self.openshift_url = 'http://work-40323140.rhcloud.com/'
+        self.openshift_url = ''
         # 你的自評
         self.evaluation = [('專案7',60 ), ('專案8', 60), ('專案9', 60)]
         # 你的照片 url
-        self.photo_url = 'https://www.copy.com/s/1o6ZZRsWeUU6'
+        self.photo_url = 'http://placekitten.com/g/350/300'
         # 這裡是心得
         self.my_remark = """
         從懵懂無知慢慢地摸索，漸漸地豁然開朗。
@@ -39,17 +39,7 @@ class Application(object):
         <!DOCTYPE html>
         <html lang="en">
         <head>
-        <style type="text/css"> 
-        body {background:url("https://copy.com/wKCkbZSdA4toQXid");background-size:100% 100%} 
-        </style>
-        <body>
-        <audio id="jp_audio_0" preload="metadata" autoplay="true" loop hidden="true" controls src="https://drive.google.com/uc?id=0B2htBN67c7W7bzBxNTlXb2RkRlU&authuser=0&export=download">
-        </audio>
-        <span style="color: #E60000;">
-        <marquee scrolldelay="300" scrollamount="5" hspace="500">
-        歡迎來到恐龍蛋的網站
-        </span>
-        </marquee>
+        
       <!-- Basic Page Needs
       –––––––––––––––––––––––––––––––––––––––––––––––––– -->
       <meta charset="utf-8">
@@ -229,7 +219,7 @@ class Application(object):
         return self.use_template(content)
     #@+node:lee.20141223114246.47: *3* def link
     def link(self):
-        aviable_link = [("index", "首頁"), ("remark", "心得"), (self.openshift_url, "個人Openshift網頁"),(self.github_repo_url, "個人github網頁"), (self.bitbucket_repo_url, "個人bitbucket網頁"), ('/', 'back to list')]
+        aviable_link = [("index", "HOME"), ("remark", "心得"), (self.openshift_url, "個人Openshift APP"),(self.github_repo_url, "個人github REPO"), (self.bitbucket_repo_url, "個人bitbucket REPO"), ('/', 'back to list')]
         return aviable_link
     #@+node:lee.20141223114246.54: *3* def remark
     @cherrypy.expose
