@@ -1,18 +1,4 @@
-﻿#@+leo-ver=5-thin
-
-#@+node:lee.20141215164031.94: * @file example.py
-#@@language python
-#@@tabwidth -4
-#@+<<decorations>>
-#@+node:lee.20141215164031.95: ** <<decorations>>
-import cherrypy
-import random
-from std.asciisymbol import asciiImage
-from wsgi import env
-#@-<<decorations>>
-
-
-
+#@+leo-ver=5-thin
 #@+node:lee.20141224110313.61: * @file example2.py
 #@@language python
 #@@tabwidth -4
@@ -27,27 +13,25 @@ class Application(object):
     #@+node:lee.20141223114246.42: *3* def init
     def __init__(self):
     	#你的名子
-        self.name = '林祐生'
+        self.name = '郭世欣'
         # 你的學號
-        self.number = '40323123'
+        self.number = '40323137'
         # 你的班級
-        self.classes = 'nfu'
+        self.classes = '四設計一甲'
         # 你的 github repository url
-        self.github_repo_url = 'https://github.com/smpss91341/cerrtpy.git'
-        # 你的 bitbucket repository url
-        self.bitbucket_repo_url = 'https://bitbucket.org/smpss91341/cerrtpy'
+        self.github_repo_url = 'https://github.com/awpdv/2014cp_project-40323137'
         # 你的 openshift app
-        self.openshift_url = 'http://cheerpy-40323123.rhcloud.com/'
+        self.openshift_url = 'http://40323137-awpdv.rhcloud.com/'
         # 你的自評
-        self.evaluation = [('Project 7', 80), ('Project 8', 90), ('Project 9', 100)]
+        self.evaluation = [('Project 7', 75), ('Project 8', 75), ('Project 9', 75)]
         # 你的照片 url
-        self.photo_url = 'https://copy.com/RZo6bJEDWAsbHUbh'
+        self.photo_url = 'https://copy.com/Tsn966BKSO8tdBMB'
         # 這裡是心得
         self.my_remark = """
-              經 過 這 些 訓 練 ， 已 經 對 基 本 的 網 路 架 構 有 些 了 解 ， 雖 然 在 細 節 的 部 份 ， 還 是 有 些 問 題 存 在 ， 也 希 望 自 己 可 以 在 一 下 時 ， 自 己 建 立 一 個 網 站 使 用 ， 不
-			     但 可 以 用 來 管 理 自 己 的 網 站 也 可 以 放 一 些 自 己 在 上 課 時 學 習 的 心 得 ， 說 不 定 到 畢 業 時 ， 這 個 網 站 變 成 我 的 學 習 歷 程 ， 也 從 完 全 不 會 到 ， 完 全 的 理 解 、 分 析 ，
-		             期 末 了 ， 在 這 麼 短 的 學 期 中 ， 把 一 些 網 路 的 架 構 利 用 p y t h o n 建 立 出 來 ， 除 了 自 己 很 有 心 得 以 外 ， 也 看 到 了 會 不 一 定 = 會 教 人 , 也 是 因 為 這 樣 ， 漸 漸 我 想 成 為 可 以 
- 			     指 導 人 的 小 老 師 ， 也 希 望 自 己 可 以 為 未 來 放 上 一 點 希 望 ， 把 自 己 成 長 茁 壯 ， 變 成 屹 立 不 搖 的 大 樹 ， 成 樹 蔭 給 後 面 的 人 乘 涼 。
+        在課程前端，雖然摸不著頭緒，但有老師使用CamStudio記錄著影片，
+        讓後學能夠自己打造環境；在錯誤中透過老師的教學影片，能夠察覺
+        自己的錯誤所在，加上在班上有許多熱心的同學幫忙，這些人打前鋒，讓我們這些迷途羔羊，如
+        在黑暗中受到燈塔指引，一切皆明朗。只是看有沒有心要多練習而已。
         """
 
     #@+node:lee.20141223114246.43: *3* def use_template
@@ -236,7 +220,7 @@ class Application(object):
         return self.use_template(content)
     #@+node:lee.20141223114246.47: *3* def link
     def link(self):
-        aviable_link = [("index", "HOME"), ("remark", "心得"), (self.openshift_url, "個人 openshift app"),(self.github_repo_url, "個人 github repo"), (self.bitbucket_repo_url, "個人 bitbucket repo"), ('/', 'back to list')]
+        aviable_link = [("index", "首頁"), ("remark", "心得"), (self.openshift_url, "個人 openshift app"),(self.github_repo_url, "個人 github repo"), (self.bitbucket_repo_url, "個人 bitbucket repo"), ('/', 'back to list')]
         return aviable_link
     #@+node:lee.20141223114246.54: *3* def remark
     @cherrypy.expose
@@ -256,7 +240,6 @@ class Application(object):
             'photo_url':self.photo_url,
         }
         return self.generate_personal_page(data)
-
     #@-others
 #@-others
 #@-leo

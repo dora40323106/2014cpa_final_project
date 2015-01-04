@@ -20,8 +20,7 @@ class Application(object):
         self.classes = 'nfu'
         # 你的 github repository url
         self.github_repo_url = 'https://github.com/dora40323106/2014cpa_final_project'
-        # 你的 bitbucket repository url
-        self.bitbucket_repo_url = ''
+        # 你的 bitbucket repository url        self.bitbucket_repo_url = ''
         # 你的 openshift app
         self.openshift_url = 'http://cpa-nfutaiwan.rhcloud.com/'
         # 你的自評
