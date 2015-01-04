@@ -19,9 +19,9 @@ class Application(object):
         # 你的班級
         self.classes = '機械設計一年甲班'
         # 你的 github repository url
-        self.github_repo_url = 'https://github.com/a5417823/Willy-Python-Work'
+        self.github_repo_url = 'https://github.com/a5417823/Willy-Python-Work.git'
         # 你的 bitbucket repository url
-        self.bitbucket_repo_url = 'https://bitbucket.org/a5417823/backup'
+        self.bitbucket_repo_url = 'https://a5417823@bitbucket.org/a5417823/backup.git'
         # 你的 openshift app
         self.openshift_url = 'http://work-40323140.rhcloud.com/'
         # 你的自評
