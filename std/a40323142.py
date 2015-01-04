@@ -91,7 +91,7 @@ class Application(object):
         message = {
             "welcome": "從1到99猜一個數字吧!!",
             "error": "必須要輸入數字, 你的輸入是 %s" % str(guessNumber),
-            "successful": "答對了!答案是 %d , 總共猜了 %d" % (str(guessNumber), answer, count),
+            "successful": "答對了!答案是 %d , 總共猜了 %d" % (answer, count),
             "smaller": "比 %s 小,猜了 %d 次" % (str(guessNumber), count),
             "bigger": "比 %s 大,猜了 %d 次" % (str(guessNumber), count),
         }
@@ -135,8 +135,8 @@ class Application(object):
         tmpl = env.get_template('form.html')
         # set up messages
         message = {
-            'error': 'you must input correct type data.',
-            'welcome': 'Welcome to multiplied table page.',
+            'error': '你必須輸入正確的數值',
+            'welcome': '輸入你想要的99乘法表',
         }
         # set up form
         # two variable
