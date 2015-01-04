@@ -25,7 +25,7 @@ class Application(object):
         # 你的自評
         self.evaluation = [('Project 7', 75), ('Project 8', 75), ('Project 9', 75)]
         # 你的照片 url
-        self.photo_url = 'https://copy.com/Tsn966BKSO8tdBMB'
+        self.photo_url = 'https://copy.com/2VtzHVIN0gJDr1FD'
         # 這裡是心得
         self.my_remark = """
         在課程前端，雖然摸不著頭緒，但有老師使用CamStudio記錄著影片，
