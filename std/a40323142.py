@@ -120,7 +120,7 @@ class Application(object):
                 del cherrypy.session["answer"]
                 # throw successful
                 extra_content['form'] = ''
-                extra_content['output'] = message["successful"]+'<a href="guessForm">play again</a>'
+                extra_content['output'] = message["successful"]+'<a href="guessForm">在玩一次</a>'
             elif guessNumber > answer:
                 # throw small than guessNumber
                 extra_content['output'] = message["smaller"]
