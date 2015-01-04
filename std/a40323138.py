@@ -25,10 +25,9 @@ class Application(object):
         # 你的 openshift app
         self.openshift_url = 'https://openshift.redhat.com/app/console/domain/40323138'
         # 你的自評
-        self.evaluation = [('Project 7', 70), ('Project 8', 70), ('Project 9', 70)]
+        self.evaluation = [('Project 7', 80), ('Project 8',75 ), ('Project 9',60 )]
         # 你的照片 url
-        self.photo_url = 'https://www.copy.com/s/1o6ZZRsWeUU6'
-        # 這裡是心得
+        self.photo_url = 'https://copy.com/1o6ZZRsWeUU6'
         self.my_remark = """
         Zzzz。
         """
