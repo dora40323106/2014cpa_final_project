@@ -14,7 +14,7 @@ class Application(object):
     def __init__(self):
         self.name = '郭鐙元'
         self.number = '40323138'
-        self.classes = 'nfu'
+        self.classes = '四設計一甲'
 
         self.github_repo_url = 'https://github.com/mdeta/2014-cp-ab'
         self.evaluation = [('Project 7', 80), ('Project 8', 80), ('Project 9', 60)]
