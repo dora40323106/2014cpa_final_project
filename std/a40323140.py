@@ -23,7 +23,7 @@ class Application(object):
         # 你的 bitbucket repository url
         self.bitbucket_repo_url = 'https://a5417823@bitbucket.org/a5417823/backup.git'
         # 你的 openshift app
-        self.openshift_url = 'http://work-40323140.rhcloud.com/'
+        self.openshift_url = 'work-40323140.rhcloud.com'
         # 你的自評
         self.evaluation = [('專案7',60 ), ('專案8', 60), ('專案9', 60)]
         # 你的照片 url
@@ -204,7 +204,7 @@ class Application(object):
       </div>
       <div class="one-half column">
         <div class="headline">
-          自我評價
+          自我評分
         </div>
         <div>
           <table class="u-full-width">
