@@ -27,7 +27,7 @@ class Application(object):
         # 你的自評
         self.evaluation = [('Project 7', 75), ('Project 8', 75), ('Project 9', 75)]
         # 你的照片 url
-        self.photo_url = 'https://copy.com/ID9l220Bx7vE9uVe4'
+        self.photo_url = 'https://copy.com/tEEJM6ZziHoYgvHN'
         # 這裡是心得
         self.my_remark = """
         this is so different that I don't understand.(暫定)
