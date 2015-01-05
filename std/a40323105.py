@@ -30,7 +30,7 @@ class Application(object):
         self.my_remark = """
         從一開始的九九乘法表,到使用github,最後再連接到openshift,其實只聽得懂前面一點點,
         但後來還是慢慢搞懂.... 雖然有時還搞不清楚自己push到哪裡去,漸漸地就懂了.只能說,
-        這真的需要用到腦力的一堂課阿!!!!
+        這真的需要用到腦力的一堂課阿!!!!!
         """
 
     #@+node:lee.20141223114246.43: *3* def use_template
