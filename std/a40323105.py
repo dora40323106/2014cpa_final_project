@@ -13,15 +13,13 @@ class Application(object):
     #@+node:lee.20141223114246.42: *3* def init
     def __init__(self):
     	#你的名子
-        self.name = '阿舜仔'
+        self.name = '莊舜婷'
         # 你的學號
         self.number = '40323105'
         # 你的班級
         self.classes = '四設計一甲'
         # 你的 github repository url
         self.github_repo_url = 'https://github.com/dora40323106/2014cpa_final_project'
-        # 你的 bitbucket repository url
-        self.bitbucket_repo_url = ''
         # 你的 openshift app
         self.openshift_url = ''
         # 你的自評
@@ -30,7 +28,9 @@ class Application(object):
         self.photo_url = 'https://copy.com/tEEJM6ZziHoYgvHN'
         # 這裡是心得
         self.my_remark = """
-        this is so different that I don't understand.(暫定)
+        從一開始的九九乘法表,到使用github,最後再連接到openshift,其實只聽得懂前面一點點,
+        但後來還是慢慢搞懂.... 雖然有時還搞不清楚自己push到哪裡去,漸漸地就懂了.只能說,
+        這真的需要用到腦力的一堂課阿!!!!
         """
 
     #@+node:lee.20141223114246.43: *3* def use_template
