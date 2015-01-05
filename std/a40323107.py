@@ -13,23 +13,28 @@ class Application(object):
     #@+node:lee.20141223114246.42: *3* def init
     def __init__(self):
     	#你的名子
-        self.name = '60+'
+        self.name = '廖佑珊'
         # 你的學號
         self.number = '40323107'
         # 你的班級
         self.classes = 'nfu'
         # 你的 github repository url
         self.github_repo_url = 'https://github.com/dora40323106/2014cpa_final_project'
-        # 你的 bitbucket repository url        self.bitbucket_repo_url = ''
+        # 你的 bitbucket repository url       
+        self.bitbucket_repo_url = ''
         # 你的 openshift app
         self.openshift_url = 'http://cpa-nfutaiwan.rhcloud.com/'
         # 你的自評
-        self.evaluation = [('Project 10', 60), ('Project 11', 60), ('Project 12', 60)]
+        self.evaluation = [('Project 10', 60), ('Project 11', 60), ('Project 12', 60), ('Project 13', 60), ('Project 14', 60)]
         # 你的照片 url
-        self.photo_url = 'http://placekitten.com/g/350/300'
+        self.photo_url = 'http://placekitten.com/g/250/350'
         # 這裡是心得
         self.my_remark = """
-        python very different
+        經歷多次失敗，我終於成功了。 
+        真的不容易呀!!!
+        資料會自己消失，真的好神奇呢!!!
+        看來我太小看她了~~~
+        希望這次會成功，拜託別再搞失蹤了。
         """
 
     #@+node:lee.20141223114246.43: *3* def use_template
@@ -218,7 +223,7 @@ class Application(object):
         return self.use_template(content)
     #@+node:lee.20141223114246.47: *3* def link
     def link(self):
-        aviable_link = [("index", "HOME"), ("remark", "心得"), (self.openshift_url, "個人 openshift app"),(self.github_repo_url, "個人 github repo"), (self.bitbucket_repo_url, "個人 bitbucket repo"), ('/', 'back to list')]
+        aviable_link = [("index", "首頁"), ("remark", "心得"), (self.openshift_url, "個人 openshift app"),(self.github_repo_url, "個人 github repo"), (self.bitbucket_repo_url, "個人 bitbucket repo"), ('/', 'back to list')]
         return aviable_link
     #@+node:lee.20141223114246.54: *3* def remark
     @cherrypy.expose
