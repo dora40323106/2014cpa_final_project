@@ -13,15 +13,9 @@ class Application(object):
     #@+node:lee.20141223114246.42: *3* def init
     def __init__(self):
     	#你的名子
-<<<<<<< HEAD
         self.name = '陳律廷'
         # 你的學號
         self.number = '40323141'
-=======
-        self.name = 'Just Example'
-        # 你的學號
-        self.number = '40323199'
->>>>>>> 1e82916bb54b90df845b2a6f6ca1a606135c85c7
         # 你的班級
         self.classes = 'nfu'
         # 你的 github repository url
@@ -31,15 +25,9 @@ class Application(object):
         # 你的 openshift app
         self.openshift_url = ''
         # 你的自評
-<<<<<<< HEAD
         self.evaluation = [('Project 7', 75), ('Project 8', 75), ('Project 9', 75)]
         # 你的照片 url
         self.photo_url = 'https://copy.com/thumbs_public/TkTnLu73nuMT/41.jpg?size=1024'
-=======
-        self.evaluation = [('Project 7',60 ), ('Project 8', 60), ('Project 9', 60)]
-        # 你的照片 url
-        self.photo_url = 'http://placekitten.com/g/350/300'
->>>>>>> 1e82916bb54b90df845b2a6f6ca1a606135c85c7
         # 這裡是心得
         self.my_remark = """
         
