@@ -220,7 +220,11 @@ class Application(object):
         return self.use_template(content)
     #@+node:lee.20141223114246.47: *3* def link
     def link(self):
+<<<<<<< HEAD
+        aviable_link = [("index", "首頁"), ("remark", "心得"), (self.openshift_url, "個人 openshift app"),(self.github_repo_url, "個人 github repo"), ('/', 'back to list')]
+=======
         aviable_link = [("index", "首頁"), ("remark", "心得"), (self.openshift_url, "個人 openshift app"),(self.github_repo_url, "個人 github repo"),('/', 'back to list')]
+>>>>>>> 86ab54258b2d5ffb69d7e77a50d4713fd65cfee8
         return aviable_link
     #@+node:lee.20141223114246.54: *3* def remark
     @cherrypy.expose
