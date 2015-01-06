@@ -23,7 +23,7 @@ class Application(object):
         self.github_repo_url = 'https://github.com/mdeta/2014cp'
 
         self.evaluation = [('Project5 ', 65), ('Project6 ', 65), ('Project7 ', 70)]
-        self.photo_url = 'https://copy.com/thumbs/IMAG0538.jpg?size=1024&revision=1'
+        self.photo_url = 'https://copy.com/ApUnm37B0ClQVXVT'
     #@+node:lee.20141215164031.97: *3* def get_nav
     def get_nav(self):
         """

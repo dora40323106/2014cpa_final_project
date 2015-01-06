@@ -13,34 +13,33 @@ class Application(object):
     #@+node:lee.20141223114246.42: *3* def init
     def __init__(self):
     	#你的名子
-        self.name = '郭世欣'
+        self.name = '王寬'
         # 你的學號
-        self.number = '40323137'
+        self.number = '40323110'
         # 你的班級
-        self.classes = '四設計一甲'
+        self.classes = 'nfu'
         # 你的 github repository url
-        self.github_repo_url = 'https://github.com/awpdv/2014cp_project-40323137'
+        self.github_repo_url = 'https://github.com/dora40323106/2014cpa_final_project'
+        # 你的 bitbucket repository url
+        self.bitbucket_repo_url = ''
         # 你的 openshift app
-        self.openshift_url = 'http://40323137-awpdv.rhcloud.com/'
+        self.openshift_url = 'http://guess-40323110.rhcloud.com/'
         # 你的自評
-        self.evaluation = [('Project 7', 75), ('Project 8', 75), ('Project 9', 75)]
+        self.evaluation = [('Project 7', 65), ('Project 8',65), ('Project 9',65)]
         # 你的照片 url
-        self.photo_url = 'https://copy.com/Tsn966BKSO8tdBMB'
+        self.photo_url = 'https://copy.com/dUBdSCNDfJwUFNrM'
         # 這裡是心得
-        self.my_remark = """
-        在課程前端，雖然摸不著頭緒，但有老師使用CamStudio記錄著影片，
-        讓後學能夠自己打造環境；在錯誤中透過老師的教學影片，能夠察覺
-        自己的錯誤所在，加上在班上有許多熱心的同學幫忙，這些人打前鋒，讓我們這些迷途羔羊，如
-        在黑暗中受到燈塔指引，一切皆明朗。只是有沒有心要多練習而已。
+        self.my_remark = """今天威力彩沒中17億，回歸現實乖乖做功課。
+        
         """
 
     #@+node:lee.20141223114246.43: *3* def use_template
     def use_template(self, content):
         above = """
         <!DOCTYPE html>
-    <html lang="en">
-    <head>
-
+        <html lang="en">
+        <head>
+        
       <!-- Basic Page Needs
       –––––––––––––––––––––––––––––––––––––––––––––––––– -->
       <meta charset="utf-8">
@@ -220,7 +219,7 @@ class Application(object):
         return self.use_template(content)
     #@+node:lee.20141223114246.47: *3* def link
     def link(self):
-        aviable_link = [("index", "首頁"), ("remark", "心得"), (self.openshift_url, "個人 openshift app"),(self.github_repo_url, "個人 github repo"),('/', 'back to list')]
+        aviable_link = [("index", "HOME"), ("remark", "心得"), (self.openshift_url, "個人Openshift APP"),(self.github_repo_url, "個人github REPO"), (self.bitbucket_repo_url, "個人bitbucket REPO"), ('/', 'back to list')]
         return aviable_link
     #@+node:lee.20141223114246.54: *3* def remark
     @cherrypy.expose
