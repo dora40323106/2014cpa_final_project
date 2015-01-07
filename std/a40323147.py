@@ -27,10 +27,10 @@ class Application(object):
         # 你的自評
         self.evaluation = [('Project 7', 65), ('Project 8', 65), ('Project 9', 65)]
         # 你的照片 url
-        self.photo_url = ''
+        self.photo_url = 'https://copy.com/BlOoEdT60uUk'
         # 這裡是心得
         self.my_remark = """
-        
+        一開始甚麼都不懂 可是在同學的幫助下 也漸漸學習到有用的東西 所以 非常感謝幫助我的那些人
         """
 
     #@+node:lee.20141223114246.43: *3* def use_template
