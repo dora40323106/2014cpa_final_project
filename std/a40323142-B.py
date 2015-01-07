@@ -16,20 +16,21 @@ class Application(object):
     #@+others
     #@+node:lee.20141221203113.62: *3* def __init__
     def __init__(self):
-        self.name = '林宛儒'
-        self.number = '40323102'
+        self.name = '陳柏曄'
+        self.number = '40323142'
+        self.classes = '機械設計一年甲班'
 
-        self.classes = '四機械設計一甲'
-        self.github_repo_url = 'https://github.com/mdeta/2014cp'
+        self.github_repo_url = 'https://github.com/mdeta/2014-cp-ab'
 
-        self.evaluation = [('Project1 ', 80), ('Project2 ', 80), ('Project3 ', 80)]
-        self.photo_url = 'https://copy.com/ZrqiqOH9qxpEfkPj'
+        self.evaluation = [('專案 7', 75), ('專案 8', 70), ('專案t 9', 65)]
+        self.photo_url = 'https://copy.com/U44kSdtBp2yziELR'
+    #@+node:lee.20141215164031.97: *3* def get_nav
     def get_nav(self):
         """
         取得 nav link
         """
         #(URL 路徑, anchor name)
-        anchors = [('index', 'home'), ('guessForm', '猜數字'), ('multipliedTable', '乘法表'), ('asciiForm', '使用圖案印出字'), (self.github_repo_url, 'github repository'), ('/', 'back to list')]
+        anchors = [('index', '首頁'), ('guessForm', '猜數字'), ('multipliedTable', '乘法表'), ('asciiForm', '使用圖案印出字'), (self.github_repo_url, 'github倉儲'), ('/', '回到目錄')]
         return anchors
     #@+node:lee.20141215164031.98: *3* def index
     @cherrypy.expose
@@ -62,7 +63,7 @@ class Application(object):
         
         form = """
         <form action="" method="get">
-          <label for="guessNumber">Guess Number(1~99)</label>
+          <label for="guessNumber">猜數字(1~99)</label>
           <input name="guessNumber" type="text">
           <input type="submit" value="Send" class="button button-primary">
         </form>
@@ -88,11 +89,11 @@ class Application(object):
 
         # 設定在哪種情況下該回傳哪種訊息
         message = {
-            "welcome": "guess a number from 1 to 99",
-            "error": "must input a number, your input is %s" % str(guessNumber),
-            "successful": "correct! your input is %s answer is %d total count %d" % (str(guessNumber), answer, count),
-            "smaller": "smaller than %s and total count %d" % (str(guessNumber), count),
-            "bigger": "bigger than %s and total count %d" % (str(guessNumber), count),
+            "welcome": "從1到99猜一個數字吧!!",
+            "error": "必須要輸入數字, 你的輸入是 %s" % str(guessNumber),
+            "successful": "答對了!答案是 %d , 總共猜了 %d" % (answer, count),
+            "smaller": "比 %s 小,猜了 %d 次" % (str(guessNumber), count),
+            "bigger": "比 %s 大,猜了 %d 次" % (str(guessNumber), count),
         }
 
         #假如 guessNumber is None, 表示是第一次進來, 或是未傳值
@@ -119,7 +120,7 @@ class Application(object):
                 del cherrypy.session["answer"]
                 # throw successful
                 extra_content['form'] = ''
-                extra_content['output'] = message["successful"]+'<a href="guessForm">play again</a>'
+                extra_content['output'] = message["successful"]+'<a href="guessForm">在玩一次</a>'
             elif guessNumber > answer:
                 # throw small than guessNumber
                 extra_content['output'] = message["smaller"]
@@ -134,17 +135,17 @@ class Application(object):
         tmpl = env.get_template('form.html')
         # set up messages
         message = {
-            'error': 'you must input correct type data.',
-            'welcome': 'Welcome to multiplied table page.',
+            'error': '你必須輸入正確的數值',
+            'welcome': '輸入你想要的99乘法表',
         }
         # set up form
         # two variable
         # first, second
         form = """
         <form action="" method="post">
-          <label for="first">first number(an integer)</label>
+          <label for="first">第一個數字(整數)</label>
           <input name="first" type="text">
-          <label for="first">second number(an integer)</label>
+          <label for="first">第二個數字(整數)</label>
           <input name="second" type="text">
           <input type="submit" value="Send" class="button button-primary">
         </form>
@@ -183,13 +184,13 @@ class Application(object):
         tmpl = env.get_template('form.html')
         # set up messages
         messages = {
-            'welcome': 'welcome to ascii form',
+            'welcome': '輸入你想要印的數字及英文字母吧',
         }
         # set up form
         # variable text
         form = """
         <form method="get" action="">
-            <label for="text">Say....</label>
+            <label for="text">要印...</label>
             <input type="text" name="text" />
             <input type="submit" value="Send" class="button button-primary">
         </form>

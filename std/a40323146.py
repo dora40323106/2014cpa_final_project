@@ -13,9 +13,9 @@ class Application(object):
     #@+node:lee.20141223114246.42: *3* def init
     def __init__(self):
     	#你的名子
-        self.name = '馮俊翰'
+        self.name = '黃健華'
         # 你的學號
-        self.number = '40323146'
+        self.number = '40323147'
         # 你的班級
         self.classes = '四設計一甲'
         # 你的 github repository url
@@ -23,23 +23,23 @@ class Application(object):
         # 你的 bitbucket repository url
         self.bitbucket_repo_url = ''
         # 你的 openshift app
-        self.openshift_url = 'http://cheerpy-40323123.rhcloud.com/'
+        self.openshift_url = ''
         # 你的自評
-        self.evaluation = [('Project 7', 70), ('Project 8', 60), ('Project 9', 70)]
+        self.evaluation = [('Project 7', 65), ('Project 8', 65), ('Project 9', 65)]
         # 你的照片 url
-        self.photo_url = 'https://copy.com/thumbs_public/12YiVXH2ikyl/182909_459527957473195_1203823401_n.jpg?size=1024'
+        self.photo_url = ''
         # 這裡是心得
         self.my_remark = """
-        剛開始都不清楚老師說甚麼，一堆術語，不過經過長久的時間，努力的學習，終於了解了一點點，但是還是有待加強
+        
         """
 
     #@+node:lee.20141223114246.43: *3* def use_template
     def use_template(self, content):
         above = """
         <!DOCTYPE html>
-    <html lang="en">
-    <head>
-
+        <html lang="en">
+        <head>
+        
       <!-- Basic Page Needs
       –––––––––––––––––––––––––––––––––––––––––––––––––– -->
       <meta charset="utf-8">
@@ -219,7 +219,7 @@ class Application(object):
         return self.use_template(content)
     #@+node:lee.20141223114246.47: *3* def link
     def link(self):
-        aviable_link = [("index", "HOME"), ("remark", "心得"), (self.openshift_url, "個人 openshift app"),(self.github_repo_url, "個人 github repo"), (self.bitbucket_repo_url, "個人 bitbucket repo"), ('/', 'back to list')]
+        aviable_link = [("index", "HOME"), ("remark", "心得"), (self.openshift_url, "個人Openshift APP"),(self.github_repo_url, "個人github REPO"), ('/', 'back to list')]
         return aviable_link
     #@+node:lee.20141223114246.54: *3* def remark
     @cherrypy.expose
