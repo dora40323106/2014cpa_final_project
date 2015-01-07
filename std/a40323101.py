@@ -17,7 +17,7 @@ class Application(object):
         self.classes = '四設一甲'
 
         self.github_repo_url = 'https://github.com/40323101/123.git'
-        self.evaluation = [('Project 7', 80), ('Project 8', 70), ('Project 9', 70)]
+        self.evaluation = [('Project 7', 80), ('Project 8', 80), ('Project 9', 80)]
         self.photo_url = 'https://copy.com/nJkVqTwmCJVPhEZF'
         
     #@+node:lee.20141221203113.53: *3* def use_template
