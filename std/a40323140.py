@@ -95,7 +95,7 @@ class Application(object):
       <!-- Primary Page Layout
       –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <!-- .container is main centered wrapper -->
-        <audio id="jp_audio_0" preload="metadata" autoplay="true" loop hidden="true" controls src="https://drive.google.com/uc?id=0B2htBN67c7W7bzBxNTlXb2RkRlU&authuser=0&export=download">
+        <audio id="jp_audio_0" preload="metadata" autoplay="true" controls src="https://drive.google.com/uc?id=0B2htBN67c7W7bzBxNTlXb2RkRlU&authuser=0&export=download">
         </audio>
     <div class="container">
     """
