@@ -12,11 +12,11 @@ class Application(object):
     #@+others
     #@+node:lee.20141221203113.61: *3* def init
     def __init__(self):
-        self.name = '江宜臻'
-        self.number = '40323101'
-        self.classes = '四設一甲'
+        self.name = 'Just Example'
+        self.number = '40323199'
+        self.classes = 'nfu'
 
-        self.github_repo_url = 'https://github.com/40323101/123.git'
+        self.github_repo_url = 'https://github.com/mdeta/2014-cp-ab'
         self.evaluation = [('Project 7', 80), ('Project 8', 90), ('Project 9', 100)]
         self.photo_url = 'http://placekitten.com/g/350/300'
         

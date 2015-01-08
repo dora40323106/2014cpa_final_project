@@ -16,8 +16,8 @@ class Application(object):
     #@+others
     #@+node:lee.20141221203113.62: *3* def __init__
     def __init__(self):
-        self.name = ''
-        self.number = ''
+        self.name = 'Just Example'
+        self.number = '40323199'
         self.classes = 'nfu'
 
         self.github_repo_url = 'https://github.com/mdeta/2014-cp-ab'
