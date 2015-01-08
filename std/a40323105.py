@@ -231,7 +231,7 @@ class Application(object):
     def remark(self):
         # 這裡是心得
         # generate_headline_page(你的標題, 你的內容)
-        return self.generate_headline_page("這學期總心得", self.my_remark)
+        return self.generate_headline_page("心情吶喊", self.my_remark)
     #@+node:lee.20141223114246.48: *3* def index
     @cherrypy.expose
     def index(self):
