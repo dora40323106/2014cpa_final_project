@@ -20,9 +20,9 @@ class Application(object):
         self.name = '陳靖廷'
         self.number = '40323143'
         self.classes = '四設計一甲'
-        self.github_repo_url = 'https://github.com/mdeta/2014cp'
-        self.evaluation = [('Project 7', 80), ('Project 8', 90), ('Project 9', 100)]
-        self.photo_url = 'http://placekitten.com/g/350/300'
+        self.github_repo_url = 'https://github.com/40323143/2014-40323143'
+        self.evaluation = [('Project 7', 70), ('Project 8', 70), ('Project 9', 70)]
+        self.photo_url = 'https://scontent-b-hkg.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/s720x720/10417817_647198035375147_1796491072557334369_n.jpg?oh=d66709107a40b2ee967ae2a6fb08d9d8&oe=54B7DEFA'
     #@+node:lee.20141215164031.97: *3* def get_nav
     def get_nav(self):
         """

@@ -13,9 +13,9 @@ class Application(object):
     #@+node:lee.20141223114246.42: *3* def init
     def __init__(self):
     	#你的名子
-        self.name = '康民宗'
+        self.name = '李冠鋐'
         # 你的學號
-        self.number = '40323130'
+        self.number = '40323118'
         # 你的班級
         self.classes = 'nfu'
         # 你的 github repository url
@@ -25,13 +25,12 @@ class Application(object):
         # 你的 openshift app
         self.openshift_url = ''
         # 你的自評
-        self.evaluation = [('Project 7', 70), ('Project 8', 65), ('Project 9', 65)]
+        self.evaluation = [('Project 7', 75), ('Project 8', 75), ('Project 9', 75)]
         # 你的照片 url
-        self.photo_url = 'https://copy.com/2ldNa0b8KnnG'
+        self.photo_url = 'https://copy.com/7HT7hvqNekBzCwjk'
         # 這裡是心得
         self.my_remark = """
-        之前的東西我都還跟得上，直到Leo Editor出現之後，我整個亂掉了，一下在近端，一下又跳到遠端，完全不知道在做啥。
-        幸好有張庭豪同學的幫忙，讓我慢慢回到軌道上，雖然要再多練習幾次就是了。
+        我覺得好難喔，我希望我未來可以學得更好。
         """
 
     #@+node:lee.20141223114246.43: *3* def use_template
