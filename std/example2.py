@@ -13,21 +13,21 @@ class Application(object):
     #@+node:lee.20141223114246.42: *3* def init
     def __init__(self):
     	#你的名子
-        self.name = '陳律廷'
+        self.name = 'Just Example'
         # 你的學號
-        self.number = '40323141'
+        self.number = '40323199'
         # 你的班級
         self.classes = 'nfu'
         # 你的 github repository url
-        self.github_repo_url = 'https://github.com/dora40323106/2014cpa_final_project'
+        self.github_repo_url = 'https://github.com/mdeta/2014-cp-ab'
         # 你的 bitbucket repository url
         self.bitbucket_repo_url = ''
         # 你的 openshift app
         self.openshift_url = ''
         # 你的自評
-        self.evaluation = [('Project 7', 75), ('Project 8', 75), ('Project 9', 75)]
+        self.evaluation = [('Project 7', 80), ('Project 8', 90), ('Project 9', 100)]
         # 你的照片 url
-        self.photo_url = 'https://copy.com/thumbs_public/TkTnLu73nuMT/41.jpg?size=1024'
+        self.photo_url = 'http://placekitten.com/g/350/300'
         # 這裡是心得
         self.my_remark = """
         
