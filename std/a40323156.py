@@ -22,7 +22,7 @@ class Application(object):
         self.classes = '四機械設計一甲'
         self.github_repo_url = 'https://github.com/mdeta/2014cp'
 
-        self.evaluation = [('Project1 ', 80), ('Project2 ', 80), ('Project3 ', 80)]
+        self.evaluation = [('Project1 ', 90), ('Project2 ', 90), ('Project3 ', 90)]
         self.photo_url = 'https://scontent-a-tpe.xx.fbcdn.net/hphotos-xaf1/v/t1.0-9/1004088_1381381718752085_368829639_n.jpg?oh=7a859f21b4a6a25777129cdfe5ad986e&oe=556F7345'
     def get_nav(self):
         """
