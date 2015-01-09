@@ -25,7 +25,7 @@ class Application(object):
         # 你的自評
         self.evaluation = [('猜數字', 80), ('九九乘法表', 80), ('期末自評分數', 80)]
         # 你的照片 url
-        self.photo_url = 'https://copy.com/mB3r0AEvgqsADpN8'
+        self.photo_url = 'https://copy.com/ZrqiqOH9qxpEfkPj'
         # 這裡是心得
         self.my_remark = """
         </br>
