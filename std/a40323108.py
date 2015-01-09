@@ -20,8 +20,6 @@ class Application(object):
         self.classes = '四設計一甲'
         # 你的 github repository url
         self.github_repo_url = 'https://github.com/40323108/2014cp_project_40323108'
-        # 你的 bitbucket repository url
-        self.bitbucket_repo_url = ''
         # 你的 openshift app
         self.openshift_url = 'http://a40323108-40323108.rhcloud.com/'
         # 你的自評
@@ -219,7 +217,7 @@ class Application(object):
         return self.use_template(content)
     #@+node:lee.20141223114246.47: *3* def link
     def link(self):
-        aviable_link = [("index", "HOME"), ("remark", "心得"), (self.openshift_url, "個人Openshift APP"),(self.github_repo_url, "個人github REPO"), (self.bitbucket_repo_url, "個人bitbucket REPO"), ('/', 'back to list')]
+        aviable_link = [("index", "HOME"), ("remark", "心得"), (self.openshift_url, "個人Openshift APP"),(self.github_repo_url, "個人github REPO"), ('/', 'back to list')]
         return aviable_link
     #@+node:lee.20141223114246.54: *3* def remark
     @cherrypy.expose
