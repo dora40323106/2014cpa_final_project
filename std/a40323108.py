@@ -20,6 +20,7 @@ class Application(object):
         self.number = '40323108'
         self.classes = '四設計一甲'
         self.github_repo_url = 'https://github.com/mdeta/2014cp'
+        self.openshift_url = 'http://b40323205-40323205.rhcloud.com/'
         self.evaluation = [('Project 7', 80), ('Project 8', 80), ('Project 9', 80)]
         self.photo_url = 'https://copy.com/0iba16VxOq1mhylL'
     #@+node:lee.20141215164031.97: *3* def get_nav
