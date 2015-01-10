@@ -239,7 +239,7 @@ class Application(object):
         data = {
             'name':self.name,
             'ID':self.number,
-            '班級':self.classes,
+            'class':self.classes,
             'evaluation': self.evaluation,
             'photo_url':self.photo_url,
         }
