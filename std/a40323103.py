@@ -30,7 +30,7 @@ class Application(object):
         self.photo_url = 'https://copy.com/T6Y1DkeqFzyPLtXf'
         # 這裡是心得
         self.my_remark = """
-        
+       這學期的計算機程式課遇到了很多困難，多虧有班上同學的幫忙，尤其是這次的期末報告，因為可能中途連線有中斷，導致上傳不完全，後來只好重新設定proxy，並重新開機重來，才終於完成，多虧有同學的幫忙。 
         """
 
     #@+node:lee.20141223114246.43: *3* def use_template
