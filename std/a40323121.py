@@ -13,7 +13,7 @@ class Application(object):
     #@+node:lee.20141223114246.42: *3* def init
     def __init__(self):
     	#你的名子
-        self.name = '林育緯'
+        self.name = '林育瑋'
         # 你的學號
         self.number = '40323121'
         # 你的班級
