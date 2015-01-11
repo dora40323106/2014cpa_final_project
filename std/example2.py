@@ -13,24 +13,26 @@ class Application(object):
     #@+node:lee.20141223114246.42: *3* def init
     def __init__(self):
     	#你的名子
-        self.name = 'Just Example'
+        self.name = '張元旭'
         # 你的學號
-        self.number = '40323199'
+        self.number = '40323131'
         # 你的班級
-        self.classes = 'nfu'
+        self.classes = '四設計一甲'
         # 你的 github repository url
-        self.github_repo_url = 'https://github.com/mdeta/2014-cp-ab'
+        self.github_repo_url = 'https://github.com/mdeta/2014cp'
         # 你的 bitbucket repository url
         self.bitbucket_repo_url = ''
         # 你的 openshift app
         self.openshift_url = ''
         # 你的自評
-        self.evaluation = [('Project 7', 80), ('Project 8', 90), ('Project 9', 100)]
+        self.evaluation = [('Project 7', 70), ('Project 8', 75), ('Project 9', 75)]
         # 你的照片 url
-        self.photo_url = 'http://placekitten.com/g/350/300'
+        self.photo_url = 'https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-xfa1/t31.0-8/457183_220670251370939_42867196_o.jpg'
         # 這裡是心得
         self.my_remark = """
-        
+        經過這學期的學習後，發現稍微懂了一些東西，印象深刻的是從近端推到遠端的這個過程，git clone、git add.、git commit-m"備註"、git push
+ 這些指令剛開始害我好亂，經過幾次的錯誤之後，才漸漸地知道要如何才能不出錯，看過了上課影片也才比較了解，
+每個禮拜的進度到哪裡，要如何操作，跟同學討論，更加了解這些東西，問題也能夠一一解決。
         """
 
     #@+node:lee.20141223114246.43: *3* def use_template
