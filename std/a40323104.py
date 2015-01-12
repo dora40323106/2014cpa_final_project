@@ -13,23 +13,25 @@ class Application(object):
     #@+node:lee.20141223114246.42: *3* def init
     def __init__(self):
     	#你的名子
-        self.name = '謝馨慧'
+        self.name = '柯伊璘'
         # 你的學號
-        self.number = '40323108'
+        self.number = '40323104'
         # 你的班級
         self.classes = '四設計一甲'
         # 你的 github repository url
-        self.github_repo_url = 'https://github.com/40323108/2014cp_project_40323108'
+        self.github_repo_url = 'https://github.com/40323104/2014_final-project'
         # 你的 openshift app
-        self.openshift_url = 'http://a40323108-40323108.rhcloud.com/'
+        self.openshift_url = 'http://kyleke1125-40323104.rhcloud.com/'
         # 你的自評
-        self.evaluation = [('猜數字', 75), ('九九乘法表', 85 ), ('期末自評成績', 80)]
+        self.evaluation = [('Project 7', 70), ('Project 8', 70), ('Project 9', 70)]
         # 你的照片 url
-        self.photo_url = 'https://copy.com/0iba16VxOq1mhylL'
+        self.photo_url = 'https://copy.com/uqwfDeEMZOxmsFEM'
         # 這裡是心得
         self.my_remark = """
-        這一整個學期接觸了pothon這個語言,對我來說這是完全新的東西,上課的時候大多都聽不懂,只能先照著做,然後慢慢重複看教學影片,
-        再加上同學的幫忙,每次佑珊和舜婷都很熱心的教我,很謝謝他們,過了一學期,對這個語言的了解只能說還是模糊不清,只能盡力去完成各週作業和這項期末報告了
+        我覺得python技術對於機械設計的工作非常專業<br/>
+        雖然有學過，但是還是難以掌握及熟練運用，難以在業界有任何作用。<br/>
+        以後有志向勵志學習c++或者java，因為這個在我們系沒有開課。<br/>
+        無論如何這學期就這樣失敗的結束了，以失敗結尾是因為相比於其他課，我這門課學的極其愚笨。<br/>
         """
 
     #@+node:lee.20141223114246.43: *3* def use_template

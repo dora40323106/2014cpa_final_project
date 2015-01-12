@@ -19,18 +19,18 @@ class Application(object):
         # 你的班級
         self.classes = 'nfu'
         # 你的 github repository url
-        self.github_repo_url = 'https://github.com/dora40323106/2014cpa_final_project'
+        self.github_repo_url = 'https://github.com/40323103/2014cp_project_40323103'
         # 你的 bitbucket repository url
         self.bitbucket_repo_url = ''
         # 你的 openshift app
-        self.openshift_url = ''
+        self.openshift_url = 'http://a40323103-40323103.rhcloud.com/'
         # 你的自評
-        self.evaluation = [('Project 7', 75), ('Project 8', 75), ('Project 9', 75)]
+        self.evaluation = [('猜數字', 85), ('九九乘法表',70), ('期末自評', 78)]
         # 你的照片 url
         self.photo_url = 'https://copy.com/T6Y1DkeqFzyPLtXf'
         # 這裡是心得
         self.my_remark = """
-        
+       這學期的計算機程式課遇到了很多困難，多虧有班上同學的幫忙，尤其是這次的期末報告，因為可能中途連線有中斷，導致上傳不完全，後來只好重新設定proxy，並重新開機重來，才終於完成，多虧有同學的幫忙。 
         """
 
     #@+node:lee.20141223114246.43: *3* def use_template

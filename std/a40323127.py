@@ -13,23 +13,24 @@ class Application(object):
     #@+node:lee.20141223114246.42: *3* def init
     def __init__(self):
     	#你的名子
-        self.name = '謝馨慧'
+        self.name = '洪孟瑋'
         # 你的學號
-        self.number = '40323108'
+        self.number = '40323127'
         # 你的班級
         self.classes = '四設計一甲'
         # 你的 github repository url
-        self.github_repo_url = 'https://github.com/40323108/2014cp_project_40323108'
+        self.github_repo_url = 'https://github.com/dora40323106/2014cpa_final_project'
+        # 你的 bitbucket repository url
+        self.bitbucket_repo_url = ''
         # 你的 openshift app
-        self.openshift_url = 'http://a40323108-40323108.rhcloud.com/'
+        self.openshift_url = 'http://guessnumber-40323127.rhcloud.com/'
         # 你的自評
-        self.evaluation = [('猜數字', 75), ('九九乘法表', 85 ), ('期末自評成績', 80)]
+        self.evaluation = [('Project 7', 70), ('Project 8', 70), ('Project 9', 75)]
         # 你的照片 url
-        self.photo_url = 'https://copy.com/0iba16VxOq1mhylL'
+        self.photo_url = 'https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-prn2/v/t1.0-9/526386_514528905259345_1006655291_n.jpg?oh=0d0976b211133ca21f6d8cc502429e35&oe=552AB214&__gda__=1433227842_70d44159e5f45e2167ac7433976236a2'
         # 這裡是心得
         self.my_remark = """
-        這一整個學期接觸了pothon這個語言,對我來說這是完全新的東西,上課的時候大多都聽不懂,只能先照著做,然後慢慢重複看教學影片,
-        再加上同學的幫忙,每次佑珊和舜婷都很熱心的教我,很謝謝他們,過了一學期,對這個語言的了解只能說還是模糊不清,只能盡力去完成各週作業和這項期末報告了
+     剛開始的時候很不熟，做起來各種困難，不過慢慢地有越來越熟悉了，也會自己解決問題，但好險有林祐生的CARRY讓我的期末作業更加PASS，做完的感覺還不錯!
         """
 
     #@+node:lee.20141223114246.43: *3* def use_template
@@ -218,7 +219,7 @@ class Application(object):
         return self.use_template(content)
     #@+node:lee.20141223114246.47: *3* def link
     def link(self):
-        aviable_link = [("index", "HOME"), ("remark", "心得"), (self.openshift_url, "個人Openshift APP"),(self.github_repo_url, "個人github REPO"), ('/', 'back to list')]
+        aviable_link = [("index", "HOME"), ("remark", "心得"), (self.openshift_url, "個人Openshift APP"),(self.github_repo_url, "個人github REPO"), (self.bitbucket_repo_url, "個人bitbucket REPO"), ('/', 'back to list')]
         return aviable_link
     #@+node:lee.20141223114246.54: *3* def remark
     @cherrypy.expose
