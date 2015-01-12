@@ -28,7 +28,8 @@ class Application(object):
         self.photo_url = 'https://copy.com/0iba16VxOq1mhylL'
         # 這裡是心得
         self.my_remark = """
-        
+        這一整個學期接觸了pothon這個語言,對我來說這是完全新的東西,上課的時候大多都聽不懂,只能先照著做,然後慢慢重複看教學影片,
+        再加上同學的幫忙,每次佑珊和舜婷都很熱心的教我,很謝謝他們,過了一學期,對這個語言的了解只能說還是模糊不清,只能盡力去完成各週作業和這項期末報告了
         """
 
     #@+node:lee.20141223114246.43: *3* def use_template
