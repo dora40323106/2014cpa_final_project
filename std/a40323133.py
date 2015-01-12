@@ -23,7 +23,7 @@ class Application(object):
         # 你的 bitbucket repository url
         self.bitbucket_repo_url = ''
         # 你的 openshift app
-        self.openshift_url = 'http://guessw15-40323133.rhcloud.com/'
+        self.openshift_url = 'http://pythonw12-40323133.rhcloud.com/'
         # 你的自評
         self.evaluation = [('Project 7', 80), ('Project 8', 80), ('Project 9', 80)]
         # 你的照片 url
