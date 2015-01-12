@@ -13,9 +13,9 @@ class Application(object):
     #@+node:lee.20141223114246.42: *3* def init
     def __init__(self):
     	#你的名子
-        self.name = '曾嘉威'
+        self.name = '黃健華'
         # 你的學號
-        self.number = '40323145'
+        self.number = '40323147'
         # 你的班級
         self.classes = '四設計一甲'
         # 你的 github repository url
@@ -27,7 +27,7 @@ class Application(object):
         # 你的自評
         self.evaluation = [('Project 7', 65), ('Project 8', 65), ('Project 9', 65)]
         # 你的照片 url
-        self.photo_url = 'https://copy.com/cWDh41q29iGLrR9s'
+        self.photo_url = 'https://copy.com/4Cp8FEMWLjSP7kf1'
         # 這裡是心得
         self.my_remark = """
         一開始甚麼都不懂 可是在同學的幫助下 也漸漸學習到有用的東西 所以 非常感謝幫助我的那些人
