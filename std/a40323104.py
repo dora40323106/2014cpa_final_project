@@ -13,24 +13,25 @@ class Application(object):
     #@+node:lee.20141223114246.42: *3* def init
     def __init__(self):
     	#你的名子
-        self.name = '林育瑋'
+        self.name = '柯伊璘'
         # 你的學號
-        self.number = '40323121'
+        self.number = '40323104'
         # 你的班級
-        self.classes = 'nfu'
+        self.classes = '四設計一甲'
         # 你的 github repository url
-        self.github_repo_url = 'https://github.com/dora40323106/2014cpa_final_project'
-        # 你的 bitbucket repository url
-        self.bitbucket_repo_url = ''
+        self.github_repo_url = 'https://github.com/40323104/2014_final-project'
         # 你的 openshift app
-        self.openshift_url = 'http://python-paipailin.rhcloud.com/'
+        self.openshift_url = 'http://kyleke1125-40323104.rhcloud.com/'
         # 你的自評
-        self.evaluation = [('Project 7',70), ('Project 8', 70), ('Project 9', 70)]
+        self.evaluation = [('Project 7', 70), ('Project 8', 70), ('Project 9', 70)]
         # 你的照片 url
-        self.photo_url = 'https://copy.com/oBqqRSsgbr6LPmXt'
+        self.photo_url = 'https://copy.com/uqwfDeEMZOxmsFEM'
         # 這裡是心得
         self.my_remark = """
-        這次期末我學到了更多關於openshift跟github的運用雖然對有些課程都懵懵懂懂,不過不懂就問我們的23號同學他都會細心的教導讓我在她的教導中也多少學到一點東西實在很好 希望下學期可以學到更多
+        我覺得python技術對於機械設計的工作非常專業<br/>
+        雖然有學過，但是還是難以掌握及熟練運用，難以在業界有任何作用。<br/>
+        以後有志向勵志學習c++或者java，因為這個在我們系沒有開課。<br/>
+        無論如何這學期就這樣失敗的結束了，以失敗結尾是因為相比於其他課，我這門課學的極其愚笨。<br/>
         """
 
     #@+node:lee.20141223114246.43: *3* def use_template
@@ -219,7 +220,7 @@ class Application(object):
         return self.use_template(content)
     #@+node:lee.20141223114246.47: *3* def link
     def link(self):
-        aviable_link = [("index", "HOME"), ("remark", "心得"), (self.openshift_url, "個人Openshift APP"),(self.github_repo_url, "個人github REPO"), (self.bitbucket_repo_url, "個人bitbucket REPO"), ('/', 'back to list')]
+        aviable_link = [("index", "HOME"), ("remark", "心得"), (self.openshift_url, "個人Openshift APP"),(self.github_repo_url, "個人github REPO"), ('/', 'back to list')]
         return aviable_link
     #@+node:lee.20141223114246.54: *3* def remark
     @cherrypy.expose

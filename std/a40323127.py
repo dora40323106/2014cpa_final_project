@@ -13,24 +13,24 @@ class Application(object):
     #@+node:lee.20141223114246.42: *3* def init
     def __init__(self):
     	#你的名子
-        self.name = '林育瑋'
+        self.name = '洪孟瑋'
         # 你的學號
-        self.number = '40323121'
+        self.number = '40323127'
         # 你的班級
-        self.classes = 'nfu'
+        self.classes = '四設計一甲'
         # 你的 github repository url
         self.github_repo_url = 'https://github.com/dora40323106/2014cpa_final_project'
         # 你的 bitbucket repository url
         self.bitbucket_repo_url = ''
         # 你的 openshift app
-        self.openshift_url = 'http://python-paipailin.rhcloud.com/'
+        self.openshift_url = 'http://guessnumber-40323127.rhcloud.com/'
         # 你的自評
-        self.evaluation = [('Project 7',70), ('Project 8', 70), ('Project 9', 70)]
+        self.evaluation = [('Project 7', 70), ('Project 8', 70), ('Project 9', 75)]
         # 你的照片 url
-        self.photo_url = 'https://copy.com/oBqqRSsgbr6LPmXt'
+        self.photo_url = 'https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-prn2/v/t1.0-9/526386_514528905259345_1006655291_n.jpg?oh=0d0976b211133ca21f6d8cc502429e35&oe=552AB214&__gda__=1433227842_70d44159e5f45e2167ac7433976236a2'
         # 這裡是心得
         self.my_remark = """
-        這次期末我學到了更多關於openshift跟github的運用雖然對有些課程都懵懵懂懂,不過不懂就問我們的23號同學他都會細心的教導讓我在她的教導中也多少學到一點東西實在很好 希望下學期可以學到更多
+     剛開始的時候很不熟，做起來各種困難，不過慢慢地有越來越熟悉了，也會自己解決問題，但好險有林祐生的CARRY讓我的期末作業更加PASS，做完的感覺還不錯!
         """
 
     #@+node:lee.20141223114246.43: *3* def use_template

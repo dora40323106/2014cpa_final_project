@@ -23,7 +23,7 @@ class Application(object):
         # 你的 openshift app
         self.openshift_url = 'http://0105-40323105.rhcloud.com/'
         # 你的自評
-        self.evaluation = [('Project 7', 75), ('Project 8', 75), ('Project 9', 75)]
+        self.evaluation = [('Project 7', 75), ('Project 8', 75), ('Project 9', 80)]
         # 你的照片 url
         self.photo_url = 'https://copy.com/tEEJM6ZziHoYgvHN'
         # 這裡是心得
@@ -33,7 +33,7 @@ class Application(object):
         如果要使github和openshift同步的話,要先使用git remote add openshit,之後再用git push opeshift master
         ,而且如果有人比你push早,又必須pull下來,不斷的重複這動作。不過有一次幫同學弄的時候一直不成功,
         問之下才知道可能我們弄的時候沒有全push下來或者是電腦斷線,所以才一直弄不上去。
-        聽說第一次發生這種狀況,只能說甚麼事都有可能發生阿。
+        聽說第一次發生這種狀況,只能說甚麼事都有可能發生阿。雖然最後關機再開機好了,但是這問題依然要解決阿。
         最後我要說,這真的需要用到腦力的一堂課阿!!!!!
         """
 

@@ -13,24 +13,26 @@ class Application(object):
     #@+node:lee.20141223114246.42: *3* def init
     def __init__(self):
     	#你的名子
-        self.name = '林育瑋'
+        self.name = '翁振端'
         # 你的學號
-        self.number = '40323121'
+        self.number = '40323129'
         # 你的班級
-        self.classes = 'nfu'
+        self.classes = 'nfu-a'
         # 你的 github repository url
-        self.github_repo_url = 'https://github.com/dora40323106/2014cpa_final_project'
+        self.github_repo_url = 'https://github.com/mdeta/2014-cp-ab'
         # 你的 bitbucket repository url
         self.bitbucket_repo_url = ''
         # 你的 openshift app
-        self.openshift_url = 'http://python-paipailin.rhcloud.com/'
+        self.openshift_url = 'http://python4242-40323129.rhcloud.com/'
         # 你的自評
-        self.evaluation = [('Project 7',70), ('Project 8', 70), ('Project 9', 70)]
+        self.evaluation = [('Project 7', 70), ('Project 8', 70), ('Project 9', 70)]
         # 你的照片 url
-        self.photo_url = 'https://copy.com/oBqqRSsgbr6LPmXt'
+        self.photo_url = 'https://copy.com/22M7Q1iL6VIG'
         # 這裡是心得
         self.my_remark = """
-        這次期末我學到了更多關於openshift跟github的運用雖然對有些課程都懵懵懂懂,不過不懂就問我們的23號同學他都會細心的教導讓我在她的教導中也多少學到一點東西實在很好 希望下學期可以學到更多
+            這學期我學到簡易的代理主機設定，學習些新的指令，如 git clone(複製下載)、git add(裝載) 、git commit -m(代參數) 與 git push(推上去遠端) 的指令操作，
+也學到了如何使用這些工具指令對Github倉儲資料版次改版網站的運用，學會在Github上用開發者使用協同倉儲進行血統開發，再來我們學會如何使用puttygen來建立公私鑰
+來保護自己寫的資料不受外人奪取，再openshift上他是認id_rsa中的鑰匙，因此我們可以使用這樣的方法，讓我們用正確的鑰匙，去認正確的鎖頭，這樣我們可以確認我們拿到正確的地方。
         """
 
     #@+node:lee.20141223114246.43: *3* def use_template
