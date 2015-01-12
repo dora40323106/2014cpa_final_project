@@ -27,7 +27,7 @@ class Application(object):
         # 你的自評
         self.evaluation = [('Project 7', 70), ('Project 8', 75), ('Project 9', 75)]
         # 你的照片 url
-        self.photo_url = 'https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-xfa1/t31.0-8/457183_220670251370939_42867196_o.jpg'
+        self.photo_url = 'https://scontent-a-tpe.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/p526x296/10426121_764989673595251_9197134815377143496_n.jpg?oh=bfd1797705f31fe8e98d5fefcb2cfa83&oe=55293CF1'
         # 這裡是心得
         self.my_remark = """
         即使上課都聽不懂，但回家之後一定要請教其他會的同學，不然真的會死很慘，真的非常感謝林祐生的幫忙。
